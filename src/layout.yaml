@@ -30,24 +30,30 @@ points:
     thumbfan:
       anchor:
         ref: matrix_inner_bottom
-        shift: [-25, -U]
+        shift: [-25, -2U]
       columns:
         tuck:
+          rows:
+            sub.skip: true
         near:
           key.splay: -10
           key.origin: [-11, -19]
+          rows:
+            sub.skip: true
         home:
           key.splay: -10
-          key.stagger: -U
           key.origin: [-11.75, -9]
+          key.stagger: .25U
           rows:
-            sub:
-            super:
+            sub.skip: false
         far:
           key.spread: 21.25
           key.height: 2U
-          key.stagger: .5U
+          key.stagger: -.5U
+          rows:
+            thumb:
       rows:
+        sub.skip: true
         thumb:
   rotate: -19
   mirror:
