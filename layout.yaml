@@ -1,0 +1,52 @@
+points:
+  zones:
+    matrix:
+      columns:
+        outer:
+          rows:
+            bottom:
+            home:
+            top: $unset
+            num: $unset
+        pinky:
+          key.stagger: -2
+        ring:
+          key.origin: [-12, -19]
+          key.stagger: 12
+        middle:
+          key.stagger: 5
+        index:
+          key.stagger: -6
+        inner:
+          key.stagger: -2
+      rows:
+        bottom:
+        home:
+        top:
+        num:
+    thumbfan:
+      anchor:
+        ref: matrix_inner_bottom
+        shift: [-25, -U]
+      columns:
+        under:
+        near:
+          key.splay: -10
+          key.origin: [-11, -19]
+        home:
+          key.splay: -10
+          key.stagger: -.5U
+          key.origin: [-11.75, -9]
+          rows:
+            sub:
+        far:
+          key.spread: 21.25
+          key.height: 2U
+          key.stagger: -.25U
+      rows:
+        thumb:
+
+  rotate: -19
+  mirror:
+    ref: matrix_pinky_home
+    distance: 230
