@@ -59,8 +59,8 @@ points:
         thumb:
   rotate: -20
   mirror:
-    ref: matrix_pinky_home
-    distance: 230
+    ref: thumbfan_far_thumb
+    distance: 2.5kx
 
 outlines:
   raw:
