@@ -29,7 +29,7 @@ points:
         ref: matrix_inner_bottom
         shift: [-25, -U]
       columns:
-        under:
+        tuck:
         near:
           key.splay: -10
           key.origin: [-11, -19]
