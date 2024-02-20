@@ -57,7 +57,7 @@ points:
       rows:
         sub.skip: true
         thumb:
-  rotate: -19
+  rotate: -20
   mirror:
     ref: matrix_pinky_home
     distance: 230
