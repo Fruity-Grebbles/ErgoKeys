@@ -1,0 +1,68 @@
+points:
+    zones:
+        matrix:
+            columns:
+                outer:
+                    rows:
+                        bottom: null
+                        home: null
+                        top: $unset
+                        num: $unset
+                pinky:
+                    key:
+                        stagger: -2
+                ring:
+                    key:
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 12
+                middle:
+                    key:
+                        stagger: 5
+                index:
+                    key:
+                        stagger: -6
+                inner:
+                    key:
+                        stagger: -2
+            rows:
+                bottom: null
+                home: null
+                top: null
+                num: null
+        thumbfan:
+            anchor:
+                ref: matrix_inner_bottom
+                shift:
+                    - -25
+                    - '-U'
+            columns:
+                tuck: null
+                near:
+                    key:
+                        splay: -10
+                        origin:
+                            - -11
+                            - -19
+                home:
+                    key:
+                        splay: -10
+                        stagger: '-U'
+                        origin:
+                            - -11.75
+                            - -9
+                    rows:
+                        sub: null
+                        super: null
+                far:
+                    key:
+                        spread: 21.25
+                        height: 2U
+                        stagger: .5U
+            rows:
+                thumb: null
+    rotate: -19
+    mirror:
+        ref: matrix_pinky_home
+        distance: 230
