@@ -1,3 +1,6 @@
+units:
+  kx: U
+  ky: U
 points:
   zones:
     matrix:
@@ -46,8 +49,14 @@ points:
           key.stagger: .5U
       rows:
         thumb:
-
   rotate: -19
   mirror:
     ref: matrix_pinky_home
     distance: 230
+
+outlines:
+  raw:
+    - what: rectangle
+      where: true
+      size: [kx, ky]
+      

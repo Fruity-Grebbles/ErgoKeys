@@ -1,3 +1,6 @@
+units:
+    kx: U
+    ky: U
 points:
     zones:
         matrix:
@@ -66,3 +69,11 @@ points:
     mirror:
         ref: matrix_pinky_home
         distance: 230
+outlines:
+    raw:
+        -
+            what: rectangle
+            where: true
+            size:
+                - kx
+                - ky

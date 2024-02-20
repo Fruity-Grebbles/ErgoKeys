@@ -9,3 +9,5 @@ $default_height: 18
 $default_width: 18
 $default_padding: 19
 $default_autobind: 10
+kx: 19.05
+ky: 19.05

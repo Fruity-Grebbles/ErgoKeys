@@ -3,7 +3,7 @@
     "tasks": [{
         "label": "build",
         "command": "ergogen", // Could be any other shell command
-        "args": ["src/layout.yaml", "-o", "output/"],
+        "args": ["src/layout.yaml", "-o", "output/", "--debug"],
         "type": "shell"
     }]
 }
