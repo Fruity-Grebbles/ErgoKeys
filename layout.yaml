@@ -35,14 +35,15 @@ points:
           key.origin: [-11, -19]
         home:
           key.splay: -10
-          key.stagger: -.5U
+          key.stagger: -U
           key.origin: [-11.75, -9]
           rows:
             sub:
+            super:
         far:
           key.spread: 21.25
           key.height: 2U
-          key.stagger: -.25U
+          key.stagger: .5U
       rows:
         thumb:
 
