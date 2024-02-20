@@ -72,6 +72,10 @@ outlines:
       where: true
       bound: false
       size: [kx-0.5,ky-0.5]
+  plate:
+    - what: rectangle
+      where: true
+      size: [14, 14]
   board:
     - what: polygon
       operation: stack
