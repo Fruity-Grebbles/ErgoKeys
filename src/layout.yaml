@@ -1,8 +1,8 @@
 units:
   kx: U
   ky: U
-  px: 1.25U
-  py: 1.25U
+  px: kx + 4
+  py: ky + 4
 points:
   zones:
     matrix:
