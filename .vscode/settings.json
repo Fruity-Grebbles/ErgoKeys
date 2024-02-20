@@ -4,5 +4,10 @@
             "*.yaml",
             "*.yml",
         ]
-    }
+    },
+    "svg.preview.background": "white",
+    "recommendations": [
+        "redhat.vscode-yaml",
+        "jock.svg",
+    ]
 }
