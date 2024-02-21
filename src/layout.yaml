@@ -14,10 +14,11 @@ points:
             top: $unset
             num: $unset
         pinky:
-          key.stagger: -2
+          key.stagger: -U
         ring:
           key.origin: [-12, -19]
-          key.stagger: 12
+          key.stagger: 14
+          key.splay: -2
         middle:
           key.stagger: 5
         index:
