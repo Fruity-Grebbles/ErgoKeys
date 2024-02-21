@@ -1,0 +1,3 @@
+*/*.dxf
+*/*.yaml
+!src/*.yaml
