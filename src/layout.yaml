@@ -57,7 +57,7 @@ points:
       rows:
         sub.skip: true
         thumb:
-  rotate: -20
+  rotate: -10
   mirror:
     ref: thumbfan_far_thumb
     distance: 2.5kx
