@@ -106,8 +106,8 @@ outlines:
         - ref: mirror_matrix_outer_top
           shift: [-0.5px, 0.5py]
         - ref: mirror_matrix_outer_home
-          shift: [-0.5px, 0.5py]
-        - ref: mirror_matrix_outer_bottom
+          shift: [-0.5px,-0.5py]
+        - ref: mirror_matrix_pinky_bottom
           shift: [-0.5px,-0.5py]
         - ref: mirror_thumbfan_tuck_thumb
           shift: [-0.5px,-0.5py]
@@ -120,6 +120,8 @@ outlines:
         - ref: thumbfan_home_sub
           shift: [-0.5px,-0.5py]
         - ref: thumbfan_tuck_thumb
+          shift: [-0.5px,-0.5py]
+        - ref: matrix_pinky_bottom
           shift: [-0.5px,-0.5py]
         - ref: matrix_outer_home
           shift: [-0.5px,-0.5py]
