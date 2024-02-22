@@ -9,9 +9,9 @@ points:
       columns:
         outer:
           rows:
-            bottom:
+            bottom: $unset
             home:
-            top: $unset
+            top:
             num: $unset
         pinky:
           key.stagger: -U
@@ -81,7 +81,7 @@ outlines:
     - what: polygon
       operation: stack
       points:
-        - ref: matrix_outer_home
+        - ref: matrix_outer_top
           shift: [-0.5px, 0.5py]
         - ref: matrix_pinky_num
           shift: [-0.5px, 0.5py]
@@ -103,6 +103,8 @@ outlines:
           shift: [-0.5px, 0.5py]
         - ref: mirror_matrix_pinky_num
           shift: [-0.5px, 0.5py]
+        - ref: mirror_matrix_outer_top
+          shift: [-0.5px, 0.5py]
         - ref: mirror_matrix_outer_home
           shift: [-0.5px, 0.5py]
         - ref: mirror_matrix_outer_bottom
@@ -119,7 +121,7 @@ outlines:
           shift: [-0.5px,-0.5py]
         - ref: thumbfan_tuck_thumb
           shift: [-0.5px,-0.5py]
-        - ref: matrix_outer_bottom
+        - ref: matrix_outer_home
           shift: [-0.5px,-0.5py]
       fillet: 3
   combo:
