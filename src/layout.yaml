@@ -73,7 +73,7 @@ outlines:
       where: true
       bound: false
       size: [kx-0.5,ky-0.5]
-  plate:
+  plate_holes:
     - what: rectangle
       where: true
       size: [14, 14]
@@ -130,3 +130,7 @@ outlines:
   - name: board
   - operation: subtract
     name: keys
+  plate_with_holes:
+  - name: board
+  - operation: subtract
+    name: plate_holes
