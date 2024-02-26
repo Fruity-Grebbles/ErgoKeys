@@ -86,7 +86,7 @@ outlines:
     - what: polygon
       operation: stack
       points:
-        - ref: matrix_outer_top
+        - ref: matrix_outer_num
           shift: [-0.5px, 0.5py]
         - ref: matrix_pinky_num
           shift: [-0.5px, 0.5py]
@@ -108,7 +108,7 @@ outlines:
           shift: [-0.5px, 0.5py]
         - ref: mirror_matrix_pinky_num
           shift: [-0.5px, 0.5py]
-        - ref: mirror_matrix_outer_top
+        - ref: mirror_matrix_outer_num
           shift: [-0.5px, 0.5py]
         - ref: mirror_matrix_outer_home
           shift: [-0.5px,-0.5py]
@@ -116,14 +116,18 @@ outlines:
           shift: [-0.5px,-0.5py]
         - ref: mirror_thumbfan_tuck_thumb
           shift: [-0.5px,-0.5py]
-        - ref: mirror_thumbfan_home_sub
-          shift: [-0.5px,-0.5py]
+        - ref: mirror_thumbfan_near_thumb
+          shift: [-0.5px,-.75py]
+        - ref: mirror_thumbfan_near_thumb
+          shift: [0.5px,-.75py]
         - ref: mirror_thumbfan_far_thumb
           shift: [0.5px,-py]
         - ref: thumbfan_far_thumb
           shift: [0.5px,-py]
-        - ref: thumbfan_home_sub
-          shift: [-0.5px,-0.5py]
+        - ref: thumbfan_near_thumb
+          shift: [0.5px,-.75py]
+        - ref: thumbfan_near_thumb
+          shift: [-0.5px,-.75py]
         - ref: thumbfan_tuck_thumb
           shift: [-0.5px,-0.5py]
         - ref: matrix_pinky_bottom
