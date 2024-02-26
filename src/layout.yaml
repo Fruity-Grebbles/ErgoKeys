@@ -12,7 +12,7 @@ points:
             bottom: $unset
             home:
             top:
-            num: $unset
+            num:
         pinky:
           key.stagger: -U
         ring:
