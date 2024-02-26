@@ -41,18 +41,23 @@ points:
         near:
           key.splay: -10
           key.origin: [-11, -19]
+          key.height: 1.5U
+          key.stagger: -0.25U
           rows:
             sub.skip: true
         home:
-          key.splay: -10
-          key.origin: [-11.75, -9]
-          key.stagger: .25U
+          key.splay: -20
+          key.spread: px
+          key.stagger: 1.25U
           rows:
-            sub.skip: false
+            thumb:
+              adjust.shift: [-0.5px, 0]
+            sub:
+              skip: false
         far:
           key.spread: 21.25
           key.height: 2U
-          key.stagger: -.5U
+          key.stagger: -U
           rows:
             thumb:
       rows:
