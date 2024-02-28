@@ -16,7 +16,7 @@ points:
         pinky:
         ring:
           key.origin: [-12, -19]
-          key.stagger: 14
+          key.stagger: 10
           key.splay: -2
         middle:
           key.stagger: 5
