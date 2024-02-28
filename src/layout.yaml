@@ -1,3 +1,4 @@
+# Row stagger layout
 units:
   kx: U
   ky: U
@@ -16,20 +17,17 @@ points:
         pinky:
           key.stagger: -U
         ring:
-          key.origin: [-12, -19]
-          key.stagger: 14
-          key.splay: -2
         middle:
-          key.stagger: 5
         index:
-          key.stagger: -6
         inner:
-          key.stagger: -2
       rows:
         bottom:
         home:
+          adjust.shift: [0.25kx,0]
         top:
+          adjust.shift: [0.5kx,0]
         num:
+          adjust.shift: [0.75kx,0]
     thumbfan:
       anchor:
         ref: matrix_inner_bottom
