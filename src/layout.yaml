@@ -47,6 +47,7 @@ points:
               skip: false
               width: 1.25U
               adjust.shift: [0.55kx, 0.125ky]
+              adjust.rotate: -6
         home:
           key.splay: -10
           key.spread: px
