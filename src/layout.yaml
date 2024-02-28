@@ -66,15 +66,15 @@ points:
     distance: 2kx
 
 outlines:
-  raw:
-    - what: rectangle
-      where: true
-      size: [kx, ky]
-  keys:
-    - what: rectangle
-      where: true
-      bound: false
-      size: [kx-0.5,ky-0.5]
+  # raw:
+  #   - what: rectangle
+  #     where: true
+  #     size: [kx, ky]
+  # keys:
+  #   - what: rectangle
+  #     where: true
+  #     bound: false
+  #     size: [kx-0.5,ky-0.5]
   plate_holes:
     - what: rectangle
       where: true
@@ -132,10 +132,10 @@ outlines:
         - ref: matrix_outer_home
           shift: [-0.5px,-0.5py]
       fillet: 3
-  combo:
-  - name: board
-  - operation: subtract
-    name: keys
+  # combo:
+  # - name: board
+  # - operation: subtract
+  #   name: keys
   plate_with_holes:
   - name: board
   - operation: subtract
