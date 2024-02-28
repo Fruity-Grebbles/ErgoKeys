@@ -63,7 +63,7 @@ points:
   rotate: -10
   mirror:
     ref: thumbfan_far_thumb
-    distance: 2.5kx
+    distance: 2kx
 
 outlines:
   raw:
