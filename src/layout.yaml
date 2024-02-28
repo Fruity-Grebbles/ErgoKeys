@@ -9,12 +9,11 @@ points:
       columns:
         outer:
           rows:
-            bottom: $unset
+            bottom.skip: true
             home:
             top:
             num:
         pinky:
-          key.stagger: -U
         ring:
           key.origin: [-12, -19]
           key.stagger: 14
