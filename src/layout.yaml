@@ -33,36 +33,32 @@ points:
     thumbfan:
       anchor:
         ref: matrix_inner_bottom
-        shift: [-25, -2U]
+        shift: [-.75U, -U]
       columns:
         tuck:
-          rows:
-            sub.skip: true
+          key.width: 1.25U
         near:
-          key.splay: -10
-          key.origin: [-11, -19]
-          key.height: 1.5U
-          key.stagger: -0.25U
+          key.splay: -13
+          key.origin: [-9, -15]
+          key.stagger: -0.125U
           rows:
-            sub.skip: true
-        home:
-          key.splay: -20
-          key.spread: px
-          key.stagger: 1.25U
-          rows:
-            thumb:
-              adjust.shift: [-0.5px, 0]
-            sub:
+            thumb.height: 1.25U
+            poke:
               skip: false
+              width: 1.25U
+              adjust.shift: [0.55kx, 0.125ky]
+        home:
+          key.splay: -10
+          key.spread: px
+          key.width: 1.25U
         far:
-          key.spread: 21.25
-          key.height: 2U
-          key.stagger: -U
-          rows:
-            thumb:
+          key.spread: px
+          key.height: 1.5U
+          key.stagger: -0.125U
+
       rows:
-        sub.skip: true
         thumb:
+        poke.skip: true
   rotate: -10
   mirror:
     ref: thumbfan_far_thumb
