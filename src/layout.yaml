@@ -78,6 +78,10 @@ outlines:
     - what: rectangle
       where: /^matrix_.*/
       size: [14, 14]
+  thumbfan_holes:
+    - what: rectangle
+      where: /^thumbfan_.*/
+      size: [14,14]
   matrix_board:
     - what: polygon
       operation: stack
@@ -103,6 +107,29 @@ outlines:
   # - name: board
   # - operation: subtract
   #   name: keys
+  thumbfan_board:
+    - what: polygon
+      operation: stack
+      points:
+        - ref: thumbfan_tuck_thumb
+          shift: [-0.75px, -0.5py]
+        - ref: thumbfan_near_thumb
+          shift: [-0.5px, -0.75py]
+        - ref: thumbfan_near_thumb
+          shift: [-0.5px, -0.75py]
+        - ref: thumbfan_far_thumb
+          shift: [-0.5px, -0.75py]
+        - ref: thumbfan_far_thumb
+          shift: [0.5px, -0.75py]
+        - ref: thumbfan_far_thumb
+          shift: [0.5px, 0.75py]
+        - ref: thumbfan_near_poke
+          shift: [0.75px, 0.5py]
+        - ref: thumbfan_near_poke
+          shift: [-0.75px, 0.5py]
+        - ref: thumbfan_tuck_thumb
+          shift: [-0.75px, 0.5py]
+      # fillet: 3
   matrix_with_holes:
   - name: matrix_board
   - operation: subtract
@@ -110,4 +137,4 @@ outlines:
   thumbfan_with_holes:
   - name: thumbfan_board
   - operation: subtract
-    name: plate_holes
+    name: thumbfan_holes
