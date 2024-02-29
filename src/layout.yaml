@@ -106,6 +106,8 @@ outlines:
         - ref: mirror_matrix_outer_num
           shift: [-0.5px, 0.5py]
         - ref: mirror_matrix_outer_home
+          shift: [-0.5px, 0.5py]
+        - ref: mirror_matrix_outer_home
           shift: [-0.5px,-0.5py]
         - ref: mirror_matrix_pinky_bottom
           shift: [-0.5px,-0.5py]
@@ -129,6 +131,8 @@ outlines:
           shift: [-0.5px,-0.5py]
         - ref: matrix_outer_home
           shift: [-0.5px,-0.5py]
+        - ref: matrix_outer_home
+          shift: [-0.5px,0.5py]
       fillet: 3
   # combo:
   # - name: board
