@@ -74,58 +74,26 @@ outlines:
   #     where: true
   #     bound: false
   #     size: [kx-0.5,ky-0.5]
-  plate_holes:
+  matrix_holes:
     - what: rectangle
-      where: true
+      where: /^matrix_.*/
       size: [14, 14]
-  board:
+  matrix_board:
     - what: polygon
       operation: stack
       points:
         - ref: matrix_outer_num
           shift: [-0.5px, 0.5py]
-        - ref: matrix_pinky_num
-          shift: [-0.5px, 0.5py]
         - ref: matrix_ring_num
           shift: [-0.5px, 0.5py]
-        # - ref: matrix_middle_num
-        #   shift: [-0.5px, 0.5py]
-        # - ref: matrix_middle_num
-        #   shift: [0.5px, 0.5py]
-        # - ref: matrix_inner_num
-        #   shift: [0.5px,0.5py]
-        # - ref: mirror_matrix_inner_num
-        #   shift: [0.5px,0.5py]
-        # - ref: mirror_matrix_middle_num
-        #   shift: [0.5px,0.5py]
-        # - ref: mirror_matrix_middle_num
-        #   shift: [-0.5px, 0.5py]
-        - ref: mirror_matrix_ring_num
+        - ref: matrix_middle_num
           shift: [-0.5px, 0.5py]
-        - ref: mirror_matrix_pinky_num
-          shift: [-0.5px, 0.5py]
-        - ref: mirror_matrix_outer_num
-          shift: [-0.5px, 0.5py]
-        - ref: mirror_matrix_outer_home
-          shift: [-0.5px,-0.5py]
-        - ref: mirror_matrix_pinky_bottom
-          shift: [-0.5px,-0.5py]
-        - ref: mirror_thumbfan_tuck_thumb
-          shift: [-0.5px,-0.5py]
-        - ref: mirror_thumbfan_near_thumb
-          shift: [-0.5px,-.75py]
-        - ref: mirror_thumbfan_near_thumb
-          shift: [0.5px,-.75py]
-        - ref: mirror_thumbfan_far_thumb
-          shift: [0.5px,-py]
-        - ref: thumbfan_far_thumb
-          shift: [0.5px,-py]
-        - ref: thumbfan_near_thumb
-          shift: [0.5px,-.75py]
-        - ref: thumbfan_near_thumb
-          shift: [-0.5px,-.75py]
-        - ref: thumbfan_tuck_thumb
-          shift: [-0.5px,-0.5py]
+        - ref: matrix_middle_num
+          shift: [0.5px, 0.5py]
+        - ref: matrix_inner_num
+          shift: [0.5px,0.5py]
+        - ref: matrix_inner_bottom
+          shift: [0.5px,-0.5py]
         - ref: matrix_pinky_bottom
           shift: [-0.5px,-0.5py]
         - ref: matrix_outer_home
@@ -135,7 +103,11 @@ outlines:
   # - name: board
   # - operation: subtract
   #   name: keys
-  plate_with_holes:
-  - name: board
+  matrix_with_holes:
+  - name: matrix_board
+  - operation: subtract
+    name: matrix_holes
+  thumbfan_with_holes:
+  - name: thumbfan_board
   - operation: subtract
     name: plate_holes
