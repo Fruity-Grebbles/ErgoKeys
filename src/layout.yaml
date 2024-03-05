@@ -9,7 +9,7 @@ units:
   hingey: 4
   hinge_space: 7.35
   pokey: plate_hole + hinge_space + hingey
-  ppokey: pokey + 4
+  ppokey: ky + hinge_space + hingey + 4
 
 points:
   zones:
