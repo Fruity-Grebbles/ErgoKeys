@@ -6,9 +6,9 @@ units:
   py: ky + 4
   plate_hole: 14
   hingex: 14
-  hingey: 2
-  hinge_space: 2.5
-  pokey: kx + hinge_space + hingey
+  hingey: 4
+  hinge_space: 7.35
+  pokey: plate_hole + hinge_space + hingey
   ppokey: pokey + 4
 
 points:
@@ -33,7 +33,9 @@ points:
         bottom:
         home:
         top:
-        num.tags: poke
+          padding: pokey
+        num:
+          tags: poke
     thumbfan:
       anchor:
         ref: matrix_inner_bottom
@@ -88,12 +90,12 @@ outlines:
     - what: rectangle
       operation: stack
       size: [hingex, hingey]
-      adjust.shift: [0, 0.5*(-plate_hole-hinge_space)]
+      adjust.shift: [0, 0.5*(-pokey)+0.5*hingey]
       where: poke
     - what: rectangle
       operation: stack
       size: [plate_hole, plate_hole]
-      adjust.shift: [0, 0.5*(hinge_space+hingey)]
+      adjust.shift: [0, 0.5*pokey-0.5*plate_hole]
       where: poke
 
   board:
