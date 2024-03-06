@@ -19,6 +19,7 @@ points:
           rows:
             bottom.skip: true
         pinky:
+          key.stagger: ky
         ring:
           key.origin: [-12, -19]
           key.stagger: 10
