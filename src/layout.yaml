@@ -40,36 +40,42 @@ points:
     thumbfan:
       anchor:
         ref: matrix_inner_bottom
-        shift: [-.75U, -U]
+        shift: [-U, -U]
       columns:
         tuck:
+          rows.poke.skip: true
           key.width: 1.25U
         near:
-          key.splay: -13
-          key.origin: [-9, -15]
-          key.stagger: -0.125U
-          rows:
-            thumb.height: 1.25U
-            poke:
-              skip: false
-              width: 1.25U
-              adjust.shift: [0.55kx, 0.125ky]
-              adjust.rotate: -6
+          key.splay: -20
+          key.origin: [-16, -13]
+          key.stagger: 0.125U
+          key.spread: 1.125px
+          key.width: 1.5kx
+          rows.poke:
+            adjust.shift: [0.25plate_hole, 0.3ky]
+            adjust.rotate: -6
         home:
-          key.splay: -10
-          key.spread: px
-          key.width: 1.25U
-        far:
-          key.spread: px
-          key.height: 1.5U
-          key.stagger: -0.125U
-
+          key.splay: -18
+          key.stagger: -0.5ky
+          key.spread: 1.125px
+          rows.poke:
+            adjust.shift: [-.5kx, 0.25ky]
+            # adjust.rotate: 20
+        # far:
+        #   key.spread: px
+        #   key.height: 1.5U
+        #   key.stagger: -0.125U
       rows:
         thumb:
-        poke.skip: true
+        poke:
+          tags: poke
+          padding: pokey
+          width: plate_hole
+          height: plate_hole
   rotate: -10
   mirror:
-    ref: thumbfan_far_thumb
+    # ref: thumbfan_far_thumb
+    ref: thumbfan_home_poke
     distance: 2kx
 
 outlines:
@@ -135,14 +141,16 @@ outlines:
           shift: [-0.5px,-0.5py]
         - ref: mirror_thumbfan_near_thumb
           shift: [-0.5px,-.75py]
-        - ref: mirror_thumbfan_near_thumb
-          shift: [0.5px,-.75py]
-        - ref: mirror_thumbfan_far_thumb
+        # - ref: mirror_thumbfan_near_thumb
+        #   shift: [0.5px,-.75py]
+        - ref: mirror_thumbfan_home_thumb
           shift: [0.5px,-py]
-        - ref: thumbfan_far_thumb
+        - ref: thumbfan_home_thumb
           shift: [0.5px,-py]
-        - ref: thumbfan_near_thumb
-          shift: [0.5px,-.75py]
+        # - ref: thumbfan_far_thumb
+        #   shift: [0.5px,-py]
+        # - ref: thumbfan_near_thumb
+        #   shift: [0.5px,-.75py]
         - ref: thumbfan_near_thumb
           shift: [-0.5px,-.75py]
         - ref: thumbfan_tuck_thumb
