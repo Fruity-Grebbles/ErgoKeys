@@ -18,6 +18,8 @@ points:
         outer:
           rows:
             bottom.skip: true
+            num.adjust.rotate: 15
+            num.adjust.shift: [-.25kx,0]
         pinky:
           key.stagger: ky
         ring:
@@ -72,6 +74,7 @@ points:
           padding: pokey
           width: plate_hole
           height: plate_hole
+          adjust.rotate: 20
   rotate: -10
   mirror:
     # ref: thumbfan_far_thumb
