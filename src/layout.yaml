@@ -39,6 +39,7 @@ points:
           padding: pokey
         num:
           tags: poke
+          height: pokey
     thumbfan:
       anchor:
         ref: matrix_inner_bottom
@@ -54,8 +55,8 @@ points:
           key.spread: 1.125px
           key.width: 1.5kx
           rows.poke:
-            adjust.shift: [0.25plate_hole, 0.3ky]
-            adjust.rotate: -6
+            height: pokey
+            adjust.shift: [-1.75, 0.3ky]
         home:
           key.splay: -18
           key.stagger: -0.5ky
