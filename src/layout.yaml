@@ -57,6 +57,7 @@ points:
           rows.poke:
             height: pokey
             adjust.shift: [-1.75, 0.3ky]
+            adjust.rotate: 20
         home:
           key.splay: -18
           key.stagger: -0.5ky
