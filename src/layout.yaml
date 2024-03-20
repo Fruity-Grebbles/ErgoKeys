@@ -62,9 +62,12 @@ points:
           key.splay: -18
           key.stagger: -0.5ky
           key.spread: 1.125px
+          key.origin: [-16, -13]
+          rows.thumb.skip: true
           rows.poke:
-            adjust.shift: [-.5kx, 0.25ky]
-            # adjust.rotate: 20
+            height: pokey
+            adjust.shift: [-.75kx, 0.5ky]
+            adjust.rotate: -30
         # far:
         #   key.spread: px
         #   key.height: 1.5U
@@ -148,9 +151,9 @@ outlines:
           shift: [-0.5px,-.75py]
         # - ref: mirror_thumbfan_near_thumb
         #   shift: [0.5px,-.75py]
-        - ref: mirror_thumbfan_home_thumb
+        - ref: mirror_thumbfan_home_poke
           shift: [0.5px,-py]
-        - ref: thumbfan_home_thumb
+        - ref: thumbfan_home_poke
           shift: [0.5px,-py]
         # - ref: thumbfan_far_thumb
         #   shift: [0.5px,-py]
