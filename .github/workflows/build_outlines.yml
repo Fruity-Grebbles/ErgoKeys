@@ -1,0 +1,63 @@
+name: Build Outlines
+
+on:
+  push:
+    paths:
+      - 'src/layout.yaml'
+  pull_request:
+    paths:
+      - 'src/layout.yaml'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4.1.2
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4.0.2
+        with:
+          node-version: '18'
+          cache: 'npm'
+      - run: npm ci
+      - run: npm test
+
+      - name: Cache Ergogen
+        uses: actions/cache@v2
+        id: cache-ergogen
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-ergogen-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-ergogen-    
+          
+      - name: Install Ergogen
+        if: steps.cache-ergogen.outputs.cache-hit != 'true'
+        run: npm install -g ergogen
+        
+      - name: Run Ergogen in debug mode to generate SVGs
+        run: ergogen src/layout.yaml -o output/ --debug
+
+      - name: Summarize Commits
+        id: summarize_commits
+        run: |
+            # Get the hash of the first parent commit of this push to use as a base for the log
+            BASE_HASH=$(git merge-base HEAD ${{ github.event.before }})
+            # Generate a summary of all commits that included changes to layout.yaml since the base
+            COMMIT_SUMMARY=$(git log --format='%h %s' $BASE_HASH..HEAD -- layout.yaml)
+            if [ -z "$COMMIT_SUMMARY" ]; then
+            COMMIT_SUMMARY="No changes to layout.yaml in this range."
+            fi
+            
+            # Set the commit summary as an output variable
+            echo "::set-output name=summary::$COMMIT_SUMMARY"
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          git add output/
+          # Use the commit summary from the previous step in the commit message
+          git commit -m "Automatically generated outlines from layout.yaml" -m "${{ steps.summarize_commits.outputs.summary }}" || exit 0
+          git push

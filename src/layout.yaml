@@ -40,20 +40,24 @@ points:
         num:
           tags: poke
           height: pokey
+          width: hingex
     thumbfan:
       anchor:
         ref: matrix_inner_bottom
-        shift: [-U, -U]
+        shift: [-2U, -U]
       columns:
         squeeze:
+          key.spread: 200
           rows:
             poke.skip: true
             thumb:
               tags: poke
+              height: pokey
+              width: hingex
               adjust:
                 rotate: 90
-                shift: [hinge_space,0]
         tuck:
+          key.spread: pokey
           rows.poke.skip: true
           key.width: 1.25U
         near:
