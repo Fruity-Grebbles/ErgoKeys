@@ -42,7 +42,7 @@ jobs:
         id: summarize_commits
         run: |
             # Get the hash of the first parent commit of this push to use as a base for the log
-            BASE_HASH=$(git merge-base HEAD ${{ github.event.before }})
+            BASE_HASH=${{ github.event.before }}
             # Generate a summary of all commits that included changes to layout.yaml since the base
             COMMIT_SUMMARY=$(git log --format='%h %s' $BASE_HASH..HEAD -- layout.yaml)
             if [ -z "$COMMIT_SUMMARY" ]; then
