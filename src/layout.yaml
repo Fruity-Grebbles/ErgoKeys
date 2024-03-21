@@ -45,6 +45,14 @@ points:
         ref: matrix_inner_bottom
         shift: [-U, -U]
       columns:
+        squeeze:
+          rows:
+            poke.skip: true
+            thumb:
+              tags: poke
+              adjust:
+                rotate: 90
+                shift: [hinge_space,0]
         tuck:
           rows.poke.skip: true
           key.width: 1.25U
