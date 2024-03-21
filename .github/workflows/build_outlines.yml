@@ -37,7 +37,7 @@ jobs:
         run: npm install -g ergogen
         
       - name: Run Ergogen in debug mode to generate SVGs
-        run: ergogen src/layout.yaml -o output/ --debug
+        run: npm run ergogen src/layout.yaml -o output/ --debug
 
       - name: Summarize Commits
         id: summarize_commits
