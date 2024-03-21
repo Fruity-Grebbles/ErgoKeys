@@ -57,7 +57,7 @@ jobs:
         run: |
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'actions@github.com'
-          git add output/
+          git add output/ -f
           # Use the commit summary from the previous step in the commit message
           git commit -m "Automatically generated outlines from layout.yaml" -m "${{ steps.summarize_commits.outputs.summary }}" || exit 0
           git push
