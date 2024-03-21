@@ -1,5 +1,6 @@
 **/*.*
-!**/*.svg
+!.github
+!.github/**
 !src/*.yaml
 node_modules
 !package.json
