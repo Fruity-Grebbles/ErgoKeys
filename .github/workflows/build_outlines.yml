@@ -3,10 +3,10 @@ name: Build Outlines
 on:
   push:
     paths:
-      - 'layout.yaml'
+      - 'src/layout.yaml'
   pull_request:
     paths:
-      - 'layout.yaml'
+      - 'src/layout.yaml'
 
 jobs:
   build:
