@@ -75,26 +75,18 @@ points:
             adjust.rotate: 20
         home:
           key.splay: -18
-          key.stagger: -0.5ky
-          key.spread: 1.125px
-          key.origin: [-16, -13]
-          rows.thumb.skip: true
+          key.stagger: -0.25ky
+          key.spread: 1.25px
           rows.poke:
             height: pokey
-            adjust.shift: [-.75kx, 0.5ky]
-            adjust.rotate: -30
-        # far:
-        #   key.spread: px
-        #   key.height: 1.5U
-        #   key.stagger: -0.125U
+            adjust.shift: [-.5px, .125py]
+            adjust.rotate: -35
       rows:
         thumb:
         poke:
           tags: poke
-          padding: pokey
           width: plate_hole
           height: plate_hole
-          adjust.rotate: 20
   rotate: -10
   mirror:
     # ref: thumbfan_far_thumb
