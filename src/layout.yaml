@@ -71,7 +71,7 @@ points:
           key.width: 1.5kx
           rows.poke:
             height: pokey
-            adjust.shift: [-1.75, 0.3ky]
+            adjust.shift: [-.35kx, 0.35ky]
             adjust.rotate: 20
         home:
           key.splay: -18
