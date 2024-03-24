@@ -151,24 +151,24 @@ outlines:
           shift: [-0.5px,-0.5py]
         - ref: mirror_thumbfan_squeeze_thumb
           shift: [-0.5px,0.5ppokey]
-        - ref: mirror_thumbfan_tuck_thumb
-          shift: [-0.5px,-0.5py]
-        - ref: mirror_thumbfan_near_thumb
-          shift: [-0.5px,-.75py]
+        - ref: mirror_thumbfan_squeeze_thumb
+          shift: [-.5px,-0.5ppokey]
         # - ref: mirror_thumbfan_near_thumb
         #   shift: [0.5px,-.75py]
-        - ref: mirror_thumbfan_home_poke
-          shift: [0.5px,-py]
-        - ref: thumbfan_home_poke
-          shift: [0.5px,-py]
+        - ref: mirror_thumbfan_home_thumb
+          shift: [-0.5px,-.5py]
+        - ref: mirror_thumbfan_home_thumb
+          shift: [0.5px,-.5py]
+        - ref: thumbfan_home_thumb
+          shift: [0.5px,-.5py]
+        - ref: thumbfan_home_thumb
+          shift: [-0.5px,-.5py]
         # - ref: thumbfan_far_thumb
         #   shift: [0.5px,-py]
         # - ref: thumbfan_near_thumb
         #   shift: [0.5px,-.75py]
         - ref: thumbfan_near_thumb
-          shift: [-0.5px,-.75py]
-        - ref: thumbfan_tuck_thumb
-          shift: [-0.5px,-0.5py]
+          shift: [-0.825px,-.5py]
         - ref: thumbfan_squeeze_thumb
           shift: [-0.5px,0.5ppokey]
         - ref: matrix_pinky_bottom
