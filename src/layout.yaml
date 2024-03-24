@@ -50,7 +50,6 @@ points:
         shift: [-2U, -U]
       columns:
         squeeze:
-          key.spread: 200
           rows:
             poke.skip: true
             thumb:
