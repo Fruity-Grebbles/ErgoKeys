@@ -64,10 +64,13 @@ points:
           key.padding: pokey
           rows.poke:
             adjust.shift: [-2,0]
+        extra:
+          key.padding: pokey
+          rows.thumb.skip: true
+          key.spread: 0
           rows.poke:
-            height: pokey
-            adjust.shift: [-.35kx, 0.35ky]
-            adjust.rotate: 20
+            adjust.shift: [kx,0]
+            adjust.rotate: -15
         home:
           key.splay: -18
           key.stagger: -0.25ky
