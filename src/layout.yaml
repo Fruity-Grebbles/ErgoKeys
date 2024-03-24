@@ -47,7 +47,7 @@ points:
     thumbfan:
       anchor:
         ref: matrix_inner_bottom
-        shift: [-2U, -U]
+        shift: [-.75U, -U]
       columns:
         squeeze:
           rows:
@@ -58,16 +58,12 @@ points:
               width: hingex
               adjust:
                 rotate: 90
-        tuck:
-          key.spread: pokey
-          rows.poke.skip: true
-          key.width: 1.25U
         near:
-          key.splay: -20
-          key.origin: [-16, -13]
-          key.stagger: 0.125U
-          key.spread: 1.125px
-          key.width: 1.5kx
+          key.spread: 1.75kx
+          key.width: 1.75kx
+          key.padding: pokey
+          rows.poke:
+            adjust.shift: [-2,0]
           rows.poke:
             height: pokey
             adjust.shift: [-.35kx, 0.35ky]
