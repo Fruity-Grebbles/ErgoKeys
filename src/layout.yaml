@@ -83,7 +83,7 @@ points:
         poke:
           tags: poke
           width: plate_hole
-          height: plate_hole
+          height: pokey
   rotate: -10
   mirror:
     # ref: thumbfan_far_thumb
