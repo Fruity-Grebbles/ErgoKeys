@@ -24,7 +24,7 @@ jobs:
       - run: npm ci
 
       - name: Cache Ergogen
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         id: cache-ergogen
         with:
           path: ~/.npm
