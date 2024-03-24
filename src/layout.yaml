@@ -72,12 +72,11 @@ points:
             adjust.shift: [kx,0]
             adjust.rotate: -15
         home:
-          key.splay: -18
-          key.stagger: -0.25ky
-          key.spread: 1.25px
+          key.splay: -25
+          key.stagger: -ky
+          key.spread: 1.25kx
+          key.padding: pokey
           rows.poke:
-            height: pokey
-            adjust.shift: [-.5px, .125py]
             adjust.rotate: -35
       rows:
         thumb:
