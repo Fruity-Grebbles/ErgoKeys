@@ -71,14 +71,14 @@ points:
           key.spread: 0
           rows.poke:
             adjust.shift: [kx,0]
-            adjust.rotate: -15
+            adjust.rotate: -25
         home:
           key.splay: -25
           key.stagger: -ky
           key.spread: 1.25kx
           key.padding: pokey-3
           rows.poke:
-            adjust.rotate: -35
+            adjust.rotate: -55
       rows:
         thumb:
         poke:
