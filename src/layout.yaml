@@ -21,7 +21,7 @@ points:
         outer:
           rows:
             bottom.skip: true
-            num.adjust.rotate: 15
+            num.adjust.rotate: 40
             num.adjust.shift: [-.25kx,0]
         pinky:
           key.stagger: ky
