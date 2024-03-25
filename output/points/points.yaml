@@ -1,0 +1,5484 @@
+matrix_outer_home:
+    x: 3.2993154
+    'y': 18.7113473
+    r: -10
+    meta:
+        stagger: 0
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: outer_home
+        name: matrix_outer_home
+        zone:
+            columns:
+                outer:
+                    rows:
+                        bottom:
+                            skip: true
+                        num:
+                            adjust:
+                                rotate: 15
+                                shift:
+                                    - '-.25kx'
+                                    - 0
+                    key: {}
+                    name: outer
+                pinky:
+                    key:
+                        stagger: ky
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 10
+                        splay: -2
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: -2
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top:
+                    padding: pokey
+                num:
+                    tags: poke
+                    height: pokey
+                    width: hingex
+            name: matrix
+        col:
+            rows:
+                bottom:
+                    skip: true
+                num:
+                    adjust:
+                        rotate: 15
+                        shift:
+                            - '-.25kx'
+                            - 0
+            key: {}
+            name: outer
+        row: home
+        mirrored: false
+        bind:
+            - 10
+            - 10
+            - 0
+            - 0
+matrix_outer_top:
+    x: 6.5986308
+    'y': 37.4226946
+    r: -10
+    meta:
+        stagger: 0
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 25.25
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: outer_top
+        name: matrix_outer_top
+        zone:
+            columns:
+                outer:
+                    rows:
+                        bottom:
+                            skip: true
+                        num:
+                            adjust:
+                                rotate: 15
+                                shift:
+                                    - '-.25kx'
+                                    - 0
+                    key: {}
+                    name: outer
+                pinky:
+                    key:
+                        stagger: ky
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 10
+                        splay: -2
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: -2
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top:
+                    padding: pokey
+                num:
+                    tags: poke
+                    height: pokey
+                    width: hingex
+            name: matrix
+        col:
+            rows:
+                bottom:
+                    skip: true
+                num:
+                    adjust:
+                        rotate: 15
+                        shift:
+                            - '-.25kx'
+                            - 0
+            key: {}
+            name: outer
+        row: top
+        mirrored: false
+        bind:
+            - 10
+            - 10
+            - 10
+            - 0
+matrix_outer_num:
+    x: 6.2931003
+    'y': 63.1160898
+    r: 5
+    meta:
+        stagger: 0
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust:
+            rotate: 15
+            shift:
+                - '-.25kx'
+                - 0
+        width: 14
+        height: 25.25
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: outer_num
+        name: matrix_outer_num
+        tags: poke
+        zone:
+            columns:
+                outer:
+                    rows:
+                        bottom:
+                            skip: true
+                        num:
+                            adjust:
+                                rotate: 15
+                                shift:
+                                    - '-.25kx'
+                                    - 0
+                    key: {}
+                    name: outer
+                pinky:
+                    key:
+                        stagger: ky
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 10
+                        splay: -2
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: -2
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top:
+                    padding: pokey
+                num:
+                    tags: poke
+                    height: pokey
+                    width: hingex
+            name: matrix
+        col:
+            rows:
+                bottom:
+                    skip: true
+                num:
+                    adjust:
+                        rotate: 15
+                        shift:
+                            - '-.25kx'
+                            - 0
+            key: {}
+            name: outer
+        row: num
+        mirrored: false
+        bind:
+            - 0
+            - 10
+            - 10
+            - 0
+matrix_pinky_bottom:
+    x: 22.0193451
+    'y': 15.4612723
+    r: -10
+    meta:
+        stagger: 19.05
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: pinky_bottom
+        name: matrix_pinky_bottom
+        zone:
+            columns:
+                outer:
+                    rows:
+                        bottom:
+                            skip: true
+                        num:
+                            adjust:
+                                rotate: 15
+                                shift:
+                                    - '-.25kx'
+                                    - 0
+                    key: {}
+                    name: outer
+                pinky:
+                    key:
+                        stagger: ky
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 10
+                        splay: -2
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: -2
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top:
+                    padding: pokey
+                num:
+                    tags: poke
+                    height: pokey
+                    width: hingex
+            name: matrix
+        col:
+            key:
+                stagger: ky
+            rows: {}
+            name: pinky
+        row: bottom
+        mirrored: false
+        bind:
+            - 10
+            - 0
+            - 0
+            - 0
+matrix_pinky_home:
+    x: 25.3186605
+    'y': 34.1726196
+    r: -10
+    meta:
+        stagger: 19.05
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: pinky_home
+        name: matrix_pinky_home
+        zone:
+            columns:
+                outer:
+                    rows:
+                        bottom:
+                            skip: true
+                        num:
+                            adjust:
+                                rotate: 15
+                                shift:
+                                    - '-.25kx'
+                                    - 0
+                    key: {}
+                    name: outer
+                pinky:
+                    key:
+                        stagger: ky
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 10
+                        splay: -2
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: -2
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top:
+                    padding: pokey
+                num:
+                    tags: poke
+                    height: pokey
+                    width: hingex
+            name: matrix
+        col:
+            key:
+                stagger: ky
+            rows: {}
+            name: pinky
+        row: home
+        mirrored: false
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+matrix_pinky_top:
+    x: 28.6179758
+    'y': 52.8839669
+    r: -10
+    meta:
+        stagger: 19.05
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 25.25
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: pinky_top
+        name: matrix_pinky_top
+        zone:
+            columns:
+                outer:
+                    rows:
+                        bottom:
+                            skip: true
+                        num:
+                            adjust:
+                                rotate: 15
+                                shift:
+                                    - '-.25kx'
+                                    - 0
+                    key: {}
+                    name: outer
+                pinky:
+                    key:
+                        stagger: ky
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 10
+                        splay: -2
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: -2
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top:
+                    padding: pokey
+                num:
+                    tags: poke
+                    height: pokey
+                    width: hingex
+            name: matrix
+        col:
+            key:
+                stagger: ky
+            rows: {}
+            name: pinky
+        row: top
+        mirrored: false
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+matrix_pinky_num:
+    x: 33.0025923
+    'y': 77.7503627
+    r: -10
+    meta:
+        stagger: 19.05
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 14
+        height: 25.25
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: pinky_num
+        name: matrix_pinky_num
+        tags: poke
+        zone:
+            columns:
+                outer:
+                    rows:
+                        bottom:
+                            skip: true
+                        num:
+                            adjust:
+                                rotate: 15
+                                shift:
+                                    - '-.25kx'
+                                    - 0
+                    key: {}
+                    name: outer
+                pinky:
+                    key:
+                        stagger: ky
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 10
+                        splay: -2
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: -2
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top:
+                    padding: pokey
+                num:
+                    tags: poke
+                    height: pokey
+                    width: hingex
+            name: matrix
+        col:
+            key:
+                stagger: ky
+            rows: {}
+            name: pinky
+        row: num
+        mirrored: false
+        bind:
+            - 0
+            - 10
+            - 10
+            - 0
+matrix_ring_bottom:
+    x: 43.0382591
+    'y': 21.4723295
+    r: -12
+    meta:
+        stagger: 10
+        spread: 19
+        splay: -2
+        origin:
+            - -12
+            - -19
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: ring_bottom
+        name: matrix_ring_bottom
+        zone:
+            columns:
+                outer:
+                    rows:
+                        bottom:
+                            skip: true
+                        num:
+                            adjust:
+                                rotate: 15
+                                shift:
+                                    - '-.25kx'
+                                    - 0
+                    key: {}
+                    name: outer
+                pinky:
+                    key:
+                        stagger: ky
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 10
+                        splay: -2
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: -2
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top:
+                    padding: pokey
+                num:
+                    tags: poke
+                    height: pokey
+                    width: hingex
+            name: matrix
+        col:
+            key:
+                origin:
+                    - -12
+                    - -19
+                stagger: 10
+                splay: -2
+            rows: {}
+            name: ring
+        row: bottom
+        mirrored: false
+        bind:
+            - 10
+            - 0
+            - 0
+            - 10
+matrix_ring_home:
+    x: 46.9885812
+    'y': 40.0571339
+    r: -12
+    meta:
+        stagger: 10
+        spread: 19
+        splay: -2
+        origin:
+            - -12
+            - -19
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: ring_home
+        name: matrix_ring_home
+        zone:
+            columns:
+                outer:
+                    rows:
+                        bottom:
+                            skip: true
+                        num:
+                            adjust:
+                                rotate: 15
+                                shift:
+                                    - '-.25kx'
+                                    - 0
+                    key: {}
+                    name: outer
+                pinky:
+                    key:
+                        stagger: ky
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 10
+                        splay: -2
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: -2
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top:
+                    padding: pokey
+                num:
+                    tags: poke
+                    height: pokey
+                    width: hingex
+            name: matrix
+        col:
+            key:
+                origin:
+                    - -12
+                    - -19
+                stagger: 10
+                splay: -2
+            rows: {}
+            name: ring
+        row: home
+        mirrored: false
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+matrix_ring_top:
+    x: 50.9389033
+    'y': 58.6419383
+    r: -12
+    meta:
+        stagger: 10
+        spread: 19
+        splay: -2
+        origin:
+            - -12
+            - -19
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 25.25
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: ring_top
+        name: matrix_ring_top
+        zone:
+            columns:
+                outer:
+                    rows:
+                        bottom:
+                            skip: true
+                        num:
+                            adjust:
+                                rotate: 15
+                                shift:
+                                    - '-.25kx'
+                                    - 0
+                    key: {}
+                    name: outer
+                pinky:
+                    key:
+                        stagger: ky
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 10
+                        splay: -2
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: -2
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top:
+                    padding: pokey
+                num:
+                    tags: poke
+                    height: pokey
+                    width: hingex
+            name: matrix
+        col:
+            key:
+                origin:
+                    - -12
+                    - -19
+                stagger: 10
+                splay: -2
+            rows: {}
+            name: ring
+        row: top
+        mirrored: false
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+matrix_ring_num:
+    x: 56.1886735
+    'y': 83.3401652
+    r: -12
+    meta:
+        stagger: 10
+        spread: 19
+        splay: -2
+        origin:
+            - -12
+            - -19
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 14
+        height: 25.25
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: ring_num
+        name: matrix_ring_num
+        tags: poke
+        zone:
+            columns:
+                outer:
+                    rows:
+                        bottom:
+                            skip: true
+                        num:
+                            adjust:
+                                rotate: 15
+                                shift:
+                                    - '-.25kx'
+                                    - 0
+                    key: {}
+                    name: outer
+                pinky:
+                    key:
+                        stagger: ky
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 10
+                        splay: -2
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: -2
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top:
+                    padding: pokey
+                num:
+                    tags: poke
+                    height: pokey
+                    width: hingex
+            name: matrix
+        col:
+            key:
+                origin:
+                    - -12
+                    - -19
+                stagger: 10
+                splay: -2
+            rows: {}
+            name: ring
+        row: num
+        mirrored: false
+        bind:
+            - 0
+            - 10
+            - 10
+            - 0
+matrix_middle_bottom:
+    x: 62.662622
+    'y': 22.4127453
+    r: -12
+    meta:
+        stagger: 5
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: middle_bottom
+        name: matrix_middle_bottom
+        zone:
+            columns:
+                outer:
+                    rows:
+                        bottom:
+                            skip: true
+                        num:
+                            adjust:
+                                rotate: 15
+                                shift:
+                                    - '-.25kx'
+                                    - 0
+                    key: {}
+                    name: outer
+                pinky:
+                    key:
+                        stagger: ky
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 10
+                        splay: -2
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: -2
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top:
+                    padding: pokey
+                num:
+                    tags: poke
+                    height: pokey
+                    width: hingex
+            name: matrix
+        col:
+            key:
+                stagger: 5
+            rows: {}
+            name: middle
+        row: bottom
+        mirrored: false
+        bind:
+            - 10
+            - 10
+            - 0
+            - 10
+matrix_middle_home:
+    x: 66.6129441
+    'y': 40.9975497
+    r: -12
+    meta:
+        stagger: 5
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: middle_home
+        name: matrix_middle_home
+        zone:
+            columns:
+                outer:
+                    rows:
+                        bottom:
+                            skip: true
+                        num:
+                            adjust:
+                                rotate: 15
+                                shift:
+                                    - '-.25kx'
+                                    - 0
+                    key: {}
+                    name: outer
+                pinky:
+                    key:
+                        stagger: ky
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 10
+                        splay: -2
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: -2
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top:
+                    padding: pokey
+                num:
+                    tags: poke
+                    height: pokey
+                    width: hingex
+            name: matrix
+        col:
+            key:
+                stagger: 5
+            rows: {}
+            name: middle
+        row: home
+        mirrored: false
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+matrix_middle_top:
+    x: 70.5632662
+    'y': 59.5823542
+    r: -12
+    meta:
+        stagger: 5
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 25.25
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: middle_top
+        name: matrix_middle_top
+        zone:
+            columns:
+                outer:
+                    rows:
+                        bottom:
+                            skip: true
+                        num:
+                            adjust:
+                                rotate: 15
+                                shift:
+                                    - '-.25kx'
+                                    - 0
+                    key: {}
+                    name: outer
+                pinky:
+                    key:
+                        stagger: ky
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 10
+                        splay: -2
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: -2
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top:
+                    padding: pokey
+                num:
+                    tags: poke
+                    height: pokey
+                    width: hingex
+            name: matrix
+        col:
+            key:
+                stagger: 5
+            rows: {}
+            name: middle
+        row: top
+        mirrored: false
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+matrix_middle_num:
+    x: 75.8130364
+    'y': 84.2805811
+    r: -12
+    meta:
+        stagger: 5
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 14
+        height: 25.25
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: middle_num
+        name: matrix_middle_num
+        tags: poke
+        zone:
+            columns:
+                outer:
+                    rows:
+                        bottom:
+                            skip: true
+                        num:
+                            adjust:
+                                rotate: 15
+                                shift:
+                                    - '-.25kx'
+                                    - 0
+                    key: {}
+                    name: outer
+                pinky:
+                    key:
+                        stagger: ky
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 10
+                        splay: -2
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: -2
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top:
+                    padding: pokey
+                num:
+                    tags: poke
+                    height: pokey
+                    width: hingex
+            name: matrix
+        col:
+            key:
+                stagger: 5
+            rows: {}
+            name: middle
+        row: num
+        mirrored: false
+        bind:
+            - 0
+            - 0
+            - 10
+            - 0
+matrix_index_bottom:
+    x: 79.9999563
+    'y': 12.5935376
+    r: -12
+    meta:
+        stagger: -6
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: index_bottom
+        name: matrix_index_bottom
+        zone:
+            columns:
+                outer:
+                    rows:
+                        bottom:
+                            skip: true
+                        num:
+                            adjust:
+                                rotate: 15
+                                shift:
+                                    - '-.25kx'
+                                    - 0
+                    key: {}
+                    name: outer
+                pinky:
+                    key:
+                        stagger: ky
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 10
+                        splay: -2
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: -2
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top:
+                    padding: pokey
+                num:
+                    tags: poke
+                    height: pokey
+                    width: hingex
+            name: matrix
+        col:
+            key:
+                stagger: -6
+            rows: {}
+            name: index
+        row: bottom
+        mirrored: false
+        bind:
+            - 10
+            - 10
+            - 0
+            - 0
+matrix_index_home:
+    x: 83.9502783
+    'y': 31.178342
+    r: -12
+    meta:
+        stagger: -6
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: index_home
+        name: matrix_index_home
+        zone:
+            columns:
+                outer:
+                    rows:
+                        bottom:
+                            skip: true
+                        num:
+                            adjust:
+                                rotate: 15
+                                shift:
+                                    - '-.25kx'
+                                    - 0
+                    key: {}
+                    name: outer
+                pinky:
+                    key:
+                        stagger: ky
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 10
+                        splay: -2
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: -2
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top:
+                    padding: pokey
+                num:
+                    tags: poke
+                    height: pokey
+                    width: hingex
+            name: matrix
+        col:
+            key:
+                stagger: -6
+            rows: {}
+            name: index
+        row: home
+        mirrored: false
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+matrix_index_top:
+    x: 87.9006004
+    'y': 49.7631464
+    r: -12
+    meta:
+        stagger: -6
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 25.25
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: index_top
+        name: matrix_index_top
+        zone:
+            columns:
+                outer:
+                    rows:
+                        bottom:
+                            skip: true
+                        num:
+                            adjust:
+                                rotate: 15
+                                shift:
+                                    - '-.25kx'
+                                    - 0
+                    key: {}
+                    name: outer
+                pinky:
+                    key:
+                        stagger: ky
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 10
+                        splay: -2
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: -2
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top:
+                    padding: pokey
+                num:
+                    tags: poke
+                    height: pokey
+                    width: hingex
+            name: matrix
+        col:
+            key:
+                stagger: -6
+            rows: {}
+            name: index
+        row: top
+        mirrored: false
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+matrix_index_num:
+    x: 93.1503706
+    'y': 74.4613734
+    r: -12
+    meta:
+        stagger: -6
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 14
+        height: 25.25
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: index_num
+        name: matrix_index_num
+        tags: poke
+        zone:
+            columns:
+                outer:
+                    rows:
+                        bottom:
+                            skip: true
+                        num:
+                            adjust:
+                                rotate: 15
+                                shift:
+                                    - '-.25kx'
+                                    - 0
+                    key: {}
+                    name: outer
+                pinky:
+                    key:
+                        stagger: ky
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 10
+                        splay: -2
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: -2
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top:
+                    padding: pokey
+                num:
+                    tags: poke
+                    height: pokey
+                    width: hingex
+            name: matrix
+        col:
+            key:
+                stagger: -6
+            rows: {}
+            name: index
+        row: num
+        mirrored: false
+        bind:
+            - 0
+            - 0
+            - 10
+            - 10
+matrix_inner_bottom:
+    x: 98.1689373
+    'y': 6.6869203
+    r: -12
+    meta:
+        stagger: -2
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: inner_bottom
+        name: matrix_inner_bottom
+        zone:
+            columns:
+                outer:
+                    rows:
+                        bottom:
+                            skip: true
+                        num:
+                            adjust:
+                                rotate: 15
+                                shift:
+                                    - '-.25kx'
+                                    - 0
+                    key: {}
+                    name: outer
+                pinky:
+                    key:
+                        stagger: ky
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 10
+                        splay: -2
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: -2
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top:
+                    padding: pokey
+                num:
+                    tags: poke
+                    height: pokey
+                    width: hingex
+            name: matrix
+        col:
+            key:
+                stagger: -2
+            rows: {}
+            name: inner
+        row: bottom
+        mirrored: false
+        bind:
+            - 10
+            - 0
+            - 0
+            - 0
+matrix_inner_home:
+    x: 102.1192593
+    'y': 25.2717247
+    r: -12
+    meta:
+        stagger: -2
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: inner_home
+        name: matrix_inner_home
+        zone:
+            columns:
+                outer:
+                    rows:
+                        bottom:
+                            skip: true
+                        num:
+                            adjust:
+                                rotate: 15
+                                shift:
+                                    - '-.25kx'
+                                    - 0
+                    key: {}
+                    name: outer
+                pinky:
+                    key:
+                        stagger: ky
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 10
+                        splay: -2
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: -2
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top:
+                    padding: pokey
+                num:
+                    tags: poke
+                    height: pokey
+                    width: hingex
+            name: matrix
+        col:
+            key:
+                stagger: -2
+            rows: {}
+            name: inner
+        row: home
+        mirrored: false
+        bind:
+            - 10
+            - 0
+            - 10
+            - 10
+matrix_inner_top:
+    x: 106.0695814
+    'y': 43.8565291
+    r: -12
+    meta:
+        stagger: -2
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 25.25
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: inner_top
+        name: matrix_inner_top
+        zone:
+            columns:
+                outer:
+                    rows:
+                        bottom:
+                            skip: true
+                        num:
+                            adjust:
+                                rotate: 15
+                                shift:
+                                    - '-.25kx'
+                                    - 0
+                    key: {}
+                    name: outer
+                pinky:
+                    key:
+                        stagger: ky
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 10
+                        splay: -2
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: -2
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top:
+                    padding: pokey
+                num:
+                    tags: poke
+                    height: pokey
+                    width: hingex
+            name: matrix
+        col:
+            key:
+                stagger: -2
+            rows: {}
+            name: inner
+        row: top
+        mirrored: false
+        bind:
+            - 10
+            - 0
+            - 10
+            - 10
+matrix_inner_num:
+    x: 111.3193516
+    'y': 68.554756
+    r: -12
+    meta:
+        stagger: -2
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 14
+        height: 25.25
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: inner_num
+        name: matrix_inner_num
+        tags: poke
+        zone:
+            columns:
+                outer:
+                    rows:
+                        bottom:
+                            skip: true
+                        num:
+                            adjust:
+                                rotate: 15
+                                shift:
+                                    - '-.25kx'
+                                    - 0
+                    key: {}
+                    name: outer
+                pinky:
+                    key:
+                        stagger: ky
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 10
+                        splay: -2
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: -2
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top:
+                    padding: pokey
+                num:
+                    tags: poke
+                    height: pokey
+                    width: hingex
+            name: matrix
+        col:
+            key:
+                stagger: -2
+            rows: {}
+            name: inner
+        row: num
+        mirrored: false
+        bind:
+            - 0
+            - 0
+            - 10
+            - 10
+thumbfan_squeeze_thumb:
+    x: 80.2329357
+    'y': -8.9762532
+    r: 78
+    meta:
+        stagger: 0
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust:
+            rotate: 90
+        width: 14
+        height: 25.25
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: squeeze_thumb
+        name: thumbfan_squeeze_thumb
+        tags: poke
+        zone:
+            columns:
+                squeeze:
+                    rows:
+                        poke:
+                            skip: true
+                        thumb:
+                            tags: poke
+                            height: pokey
+                            width: hingex
+                            adjust:
+                                rotate: 90
+                    key: {}
+                    name: squeeze
+                near:
+                    key:
+                        spread: 1.75kx
+                        width: 1.75kx
+                        padding: pokey
+                    rows:
+                        poke:
+                            adjust:
+                                shift:
+                                    - -2
+                                    - 0
+                    name: near
+                extra:
+                    key:
+                        padding: pokey
+                        spread: 0
+                    rows:
+                        thumb:
+                            skip: true
+                        poke:
+                            adjust:
+                                shift:
+                                    - kx
+                                    - 0
+                                rotate: -15
+                    name: extra
+                home:
+                    key:
+                        splay: -25
+                        stagger: '-ky'
+                        spread: 1.25kx
+                        padding: pokey
+                    rows:
+                        poke:
+                            adjust:
+                                rotate: -35
+                    name: home
+            rows:
+                thumb: {}
+                poke:
+                    tags: poke
+                    width: plate_hole
+                    height: pokey
+            name: thumbfan
+        col:
+            rows:
+                poke:
+                    skip: true
+                thumb:
+                    tags: poke
+                    height: pokey
+                    width: hingex
+                    adjust:
+                        rotate: 90
+            key: {}
+            name: squeeze
+        row: thumb
+        mirrored: false
+        bind:
+            - 0
+            - 10
+            - 0
+            - 0
+thumbfan_near_thumb:
+    x: 112.8419313
+    'y': -15.9075092
+    r: -12
+    meta:
+        stagger: 0
+        spread: 33.3375
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 33.3375
+        height: 18
+        padding: 25.25
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: near_thumb
+        name: thumbfan_near_thumb
+        zone:
+            columns:
+                squeeze:
+                    rows:
+                        poke:
+                            skip: true
+                        thumb:
+                            tags: poke
+                            height: pokey
+                            width: hingex
+                            adjust:
+                                rotate: 90
+                    key: {}
+                    name: squeeze
+                near:
+                    key:
+                        spread: 1.75kx
+                        width: 1.75kx
+                        padding: pokey
+                    rows:
+                        poke:
+                            adjust:
+                                shift:
+                                    - -2
+                                    - 0
+                    name: near
+                extra:
+                    key:
+                        padding: pokey
+                        spread: 0
+                    rows:
+                        thumb:
+                            skip: true
+                        poke:
+                            adjust:
+                                shift:
+                                    - kx
+                                    - 0
+                                rotate: -15
+                    name: extra
+                home:
+                    key:
+                        splay: -25
+                        stagger: '-ky'
+                        spread: 1.25kx
+                        padding: pokey
+                    rows:
+                        poke:
+                            adjust:
+                                rotate: -35
+                    name: home
+            rows:
+                thumb: {}
+                poke:
+                    tags: poke
+                    width: plate_hole
+                    height: pokey
+            name: thumbfan
+        col:
+            key:
+                spread: 1.75kx
+                width: 1.75kx
+                padding: pokey
+            rows:
+                poke:
+                    adjust:
+                        shift:
+                            - -2
+                            - 0
+            name: near
+        row: thumb
+        mirrored: false
+        bind:
+            - 10
+            - 0
+            - 0
+            - 0
+thumbfan_near_poke:
+    x: 116.1354063
+    'y': 9.2065411
+    r: -12
+    meta:
+        stagger: 0
+        spread: 33.3375
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust:
+            shift:
+                - -2
+                - 0
+        width: 14
+        height: 25.25
+        padding: 25.25
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: near_poke
+        name: thumbfan_near_poke
+        tags: poke
+        zone:
+            columns:
+                squeeze:
+                    rows:
+                        poke:
+                            skip: true
+                        thumb:
+                            tags: poke
+                            height: pokey
+                            width: hingex
+                            adjust:
+                                rotate: 90
+                    key: {}
+                    name: squeeze
+                near:
+                    key:
+                        spread: 1.75kx
+                        width: 1.75kx
+                        padding: pokey
+                    rows:
+                        poke:
+                            adjust:
+                                shift:
+                                    - -2
+                                    - 0
+                    name: near
+                extra:
+                    key:
+                        padding: pokey
+                        spread: 0
+                    rows:
+                        thumb:
+                            skip: true
+                        poke:
+                            adjust:
+                                shift:
+                                    - kx
+                                    - 0
+                                rotate: -15
+                    name: extra
+                home:
+                    key:
+                        splay: -25
+                        stagger: '-ky'
+                        spread: 1.25kx
+                        padding: pokey
+                    rows:
+                        poke:
+                            adjust:
+                                rotate: -35
+                    name: home
+            rows:
+                thumb: {}
+                poke:
+                    tags: poke
+                    width: plate_hole
+                    height: pokey
+            name: thumbfan
+        col:
+            key:
+                spread: 1.75kx
+                width: 1.75kx
+                padding: pokey
+            rows:
+                poke:
+                    adjust:
+                        shift:
+                            - -2
+                            - 0
+            name: near
+        row: poke
+        mirrored: false
+        bind:
+            - 0
+            - 0
+            - 10
+            - 0
+thumbfan_extra_poke:
+    x: 136.7254133
+    'y': 4.83
+    r: -27
+    meta:
+        stagger: 0
+        spread: 0
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust:
+            shift:
+                - kx
+                - 0
+            rotate: -15
+        width: 14
+        height: 25.25
+        padding: 25.25
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: extra_poke
+        name: thumbfan_extra_poke
+        tags: poke
+        zone:
+            columns:
+                squeeze:
+                    rows:
+                        poke:
+                            skip: true
+                        thumb:
+                            tags: poke
+                            height: pokey
+                            width: hingex
+                            adjust:
+                                rotate: 90
+                    key: {}
+                    name: squeeze
+                near:
+                    key:
+                        spread: 1.75kx
+                        width: 1.75kx
+                        padding: pokey
+                    rows:
+                        poke:
+                            adjust:
+                                shift:
+                                    - -2
+                                    - 0
+                    name: near
+                extra:
+                    key:
+                        padding: pokey
+                        spread: 0
+                    rows:
+                        thumb:
+                            skip: true
+                        poke:
+                            adjust:
+                                shift:
+                                    - kx
+                                    - 0
+                                rotate: -15
+                    name: extra
+                home:
+                    key:
+                        splay: -25
+                        stagger: '-ky'
+                        spread: 1.25kx
+                        padding: pokey
+                    rows:
+                        poke:
+                            adjust:
+                                rotate: -35
+                    name: home
+            rows:
+                thumb: {}
+                poke:
+                    tags: poke
+                    width: plate_hole
+                    height: pokey
+            name: thumbfan
+        col:
+            key:
+                padding: pokey
+                spread: 0
+            rows:
+                thumb:
+                    skip: true
+                poke:
+                    adjust:
+                        shift:
+                            - kx
+                            - 0
+                        rotate: -15
+            name: extra
+        row: poke
+        mirrored: false
+        bind:
+            - 0
+            - 0
+            - 0
+            - 10
+thumbfan_home_thumb:
+    x: 132.1733534
+    'y': -39.4921182
+    r: -37
+    meta:
+        stagger: -19.05
+        spread: 23.8125
+        splay: -25
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 25.25
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: home_thumb
+        name: thumbfan_home_thumb
+        zone:
+            columns:
+                squeeze:
+                    rows:
+                        poke:
+                            skip: true
+                        thumb:
+                            tags: poke
+                            height: pokey
+                            width: hingex
+                            adjust:
+                                rotate: 90
+                    key: {}
+                    name: squeeze
+                near:
+                    key:
+                        spread: 1.75kx
+                        width: 1.75kx
+                        padding: pokey
+                    rows:
+                        poke:
+                            adjust:
+                                shift:
+                                    - -2
+                                    - 0
+                    name: near
+                extra:
+                    key:
+                        padding: pokey
+                        spread: 0
+                    rows:
+                        thumb:
+                            skip: true
+                        poke:
+                            adjust:
+                                shift:
+                                    - kx
+                                    - 0
+                                rotate: -15
+                    name: extra
+                home:
+                    key:
+                        splay: -25
+                        stagger: '-ky'
+                        spread: 1.25kx
+                        padding: pokey
+                    rows:
+                        poke:
+                            adjust:
+                                rotate: -35
+                    name: home
+            rows:
+                thumb: {}
+                poke:
+                    tags: poke
+                    width: plate_hole
+                    height: pokey
+            name: thumbfan
+        col:
+            key:
+                splay: -25
+                stagger: '-ky'
+                spread: 1.25kx
+                padding: pokey
+            rows:
+                poke:
+                    adjust:
+                        rotate: -35
+            name: home
+        row: thumb
+        mirrored: false
+        bind:
+            - 10
+            - 0
+            - 0
+            - 0
+thumbfan_home_poke:
+    x: 147.3691827
+    'y': -19.3265716
+    r: -72
+    meta:
+        stagger: -19.05
+        spread: 23.8125
+        splay: -25
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust:
+            rotate: -35
+        width: 14
+        height: 25.25
+        padding: 25.25
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: home_poke
+        name: thumbfan_home_poke
+        tags: poke
+        zone:
+            columns:
+                squeeze:
+                    rows:
+                        poke:
+                            skip: true
+                        thumb:
+                            tags: poke
+                            height: pokey
+                            width: hingex
+                            adjust:
+                                rotate: 90
+                    key: {}
+                    name: squeeze
+                near:
+                    key:
+                        spread: 1.75kx
+                        width: 1.75kx
+                        padding: pokey
+                    rows:
+                        poke:
+                            adjust:
+                                shift:
+                                    - -2
+                                    - 0
+                    name: near
+                extra:
+                    key:
+                        padding: pokey
+                        spread: 0
+                    rows:
+                        thumb:
+                            skip: true
+                        poke:
+                            adjust:
+                                shift:
+                                    - kx
+                                    - 0
+                                rotate: -15
+                    name: extra
+                home:
+                    key:
+                        splay: -25
+                        stagger: '-ky'
+                        spread: 1.25kx
+                        padding: pokey
+                    rows:
+                        poke:
+                            adjust:
+                                rotate: -35
+                    name: home
+            rows:
+                thumb: {}
+                poke:
+                    tags: poke
+                    width: plate_hole
+                    height: pokey
+            name: thumbfan
+        col:
+            key:
+                splay: -25
+                stagger: '-ky'
+                spread: 1.25kx
+                padding: pokey
+            rows:
+                poke:
+                    adjust:
+                        rotate: -35
+            name: home
+        row: poke
+        mirrored: false
+        bind:
+            - 0
+            - 0
+            - 10
+            - 0
+mirror_matrix_outer_home:
+    x: 329.53905000000003
+    'y': 18.7113473
+    r: 10
+    meta:
+        stagger: 0
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_outer_home
+        name: mirror_matrix_outer_home
+        zone:
+            columns:
+                outer:
+                    rows:
+                        bottom:
+                            skip: true
+                        num:
+                            adjust:
+                                rotate: 15
+                                shift:
+                                    - '-.25kx'
+                                    - 0
+                    key: {}
+                    name: outer
+                pinky:
+                    key:
+                        stagger: ky
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 10
+                        splay: -2
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: -2
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top:
+                    padding: pokey
+                num:
+                    tags: poke
+                    height: pokey
+                    width: hingex
+            name: matrix
+        col:
+            rows:
+                bottom:
+                    skip: true
+                num:
+                    adjust:
+                        rotate: 15
+                        shift:
+                            - '-.25kx'
+                            - 0
+            key: {}
+            name: outer
+        row: home
+        mirrored: true
+        bind:
+            - 10
+            - 10
+            - 0
+            - 0
+mirror_matrix_outer_top:
+    x: 326.2397346
+    'y': 37.4226946
+    r: 10
+    meta:
+        stagger: 0
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 25.25
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_outer_top
+        name: mirror_matrix_outer_top
+        zone:
+            columns:
+                outer:
+                    rows:
+                        bottom:
+                            skip: true
+                        num:
+                            adjust:
+                                rotate: 15
+                                shift:
+                                    - '-.25kx'
+                                    - 0
+                    key: {}
+                    name: outer
+                pinky:
+                    key:
+                        stagger: ky
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 10
+                        splay: -2
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: -2
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top:
+                    padding: pokey
+                num:
+                    tags: poke
+                    height: pokey
+                    width: hingex
+            name: matrix
+        col:
+            rows:
+                bottom:
+                    skip: true
+                num:
+                    adjust:
+                        rotate: 15
+                        shift:
+                            - '-.25kx'
+                            - 0
+            key: {}
+            name: outer
+        row: top
+        mirrored: true
+        bind:
+            - 10
+            - 10
+            - 10
+            - 0
+mirror_matrix_outer_num:
+    x: 326.54526510000005
+    'y': 63.1160898
+    r: -5
+    meta:
+        stagger: 0
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust:
+            rotate: 15
+            shift:
+                - '-.25kx'
+                - 0
+        width: 14
+        height: 25.25
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_outer_num
+        name: mirror_matrix_outer_num
+        tags: poke
+        zone:
+            columns:
+                outer:
+                    rows:
+                        bottom:
+                            skip: true
+                        num:
+                            adjust:
+                                rotate: 15
+                                shift:
+                                    - '-.25kx'
+                                    - 0
+                    key: {}
+                    name: outer
+                pinky:
+                    key:
+                        stagger: ky
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 10
+                        splay: -2
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: -2
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top:
+                    padding: pokey
+                num:
+                    tags: poke
+                    height: pokey
+                    width: hingex
+            name: matrix
+        col:
+            rows:
+                bottom:
+                    skip: true
+                num:
+                    adjust:
+                        rotate: 15
+                        shift:
+                            - '-.25kx'
+                            - 0
+            key: {}
+            name: outer
+        row: num
+        mirrored: true
+        bind:
+            - 0
+            - 10
+            - 10
+            - 0
+mirror_matrix_pinky_bottom:
+    x: 310.81902030000003
+    'y': 15.4612723
+    r: 10
+    meta:
+        stagger: 19.05
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_pinky_bottom
+        name: mirror_matrix_pinky_bottom
+        zone:
+            columns:
+                outer:
+                    rows:
+                        bottom:
+                            skip: true
+                        num:
+                            adjust:
+                                rotate: 15
+                                shift:
+                                    - '-.25kx'
+                                    - 0
+                    key: {}
+                    name: outer
+                pinky:
+                    key:
+                        stagger: ky
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 10
+                        splay: -2
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: -2
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top:
+                    padding: pokey
+                num:
+                    tags: poke
+                    height: pokey
+                    width: hingex
+            name: matrix
+        col:
+            key:
+                stagger: ky
+            rows: {}
+            name: pinky
+        row: bottom
+        mirrored: true
+        bind:
+            - 10
+            - 0
+            - 0
+            - 0
+mirror_matrix_pinky_home:
+    x: 307.5197049
+    'y': 34.1726196
+    r: 10
+    meta:
+        stagger: 19.05
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_pinky_home
+        name: mirror_matrix_pinky_home
+        zone:
+            columns:
+                outer:
+                    rows:
+                        bottom:
+                            skip: true
+                        num:
+                            adjust:
+                                rotate: 15
+                                shift:
+                                    - '-.25kx'
+                                    - 0
+                    key: {}
+                    name: outer
+                pinky:
+                    key:
+                        stagger: ky
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 10
+                        splay: -2
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: -2
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top:
+                    padding: pokey
+                num:
+                    tags: poke
+                    height: pokey
+                    width: hingex
+            name: matrix
+        col:
+            key:
+                stagger: ky
+            rows: {}
+            name: pinky
+        row: home
+        mirrored: true
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+mirror_matrix_pinky_top:
+    x: 304.22038960000003
+    'y': 52.8839669
+    r: 10
+    meta:
+        stagger: 19.05
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 25.25
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_pinky_top
+        name: mirror_matrix_pinky_top
+        zone:
+            columns:
+                outer:
+                    rows:
+                        bottom:
+                            skip: true
+                        num:
+                            adjust:
+                                rotate: 15
+                                shift:
+                                    - '-.25kx'
+                                    - 0
+                    key: {}
+                    name: outer
+                pinky:
+                    key:
+                        stagger: ky
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 10
+                        splay: -2
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: -2
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top:
+                    padding: pokey
+                num:
+                    tags: poke
+                    height: pokey
+                    width: hingex
+            name: matrix
+        col:
+            key:
+                stagger: ky
+            rows: {}
+            name: pinky
+        row: top
+        mirrored: true
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+mirror_matrix_pinky_num:
+    x: 299.83577310000004
+    'y': 77.7503627
+    r: 10
+    meta:
+        stagger: 19.05
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 14
+        height: 25.25
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_pinky_num
+        name: mirror_matrix_pinky_num
+        tags: poke
+        zone:
+            columns:
+                outer:
+                    rows:
+                        bottom:
+                            skip: true
+                        num:
+                            adjust:
+                                rotate: 15
+                                shift:
+                                    - '-.25kx'
+                                    - 0
+                    key: {}
+                    name: outer
+                pinky:
+                    key:
+                        stagger: ky
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 10
+                        splay: -2
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: -2
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top:
+                    padding: pokey
+                num:
+                    tags: poke
+                    height: pokey
+                    width: hingex
+            name: matrix
+        col:
+            key:
+                stagger: ky
+            rows: {}
+            name: pinky
+        row: num
+        mirrored: true
+        bind:
+            - 0
+            - 10
+            - 10
+            - 0
+mirror_matrix_ring_bottom:
+    x: 289.80010630000004
+    'y': 21.4723295
+    r: 12
+    meta:
+        stagger: 10
+        spread: 19
+        splay: -2
+        origin:
+            - -12
+            - -19
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_ring_bottom
+        name: mirror_matrix_ring_bottom
+        zone:
+            columns:
+                outer:
+                    rows:
+                        bottom:
+                            skip: true
+                        num:
+                            adjust:
+                                rotate: 15
+                                shift:
+                                    - '-.25kx'
+                                    - 0
+                    key: {}
+                    name: outer
+                pinky:
+                    key:
+                        stagger: ky
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 10
+                        splay: -2
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: -2
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top:
+                    padding: pokey
+                num:
+                    tags: poke
+                    height: pokey
+                    width: hingex
+            name: matrix
+        col:
+            key:
+                origin:
+                    - -12
+                    - -19
+                stagger: 10
+                splay: -2
+            rows: {}
+            name: ring
+        row: bottom
+        mirrored: true
+        bind:
+            - 10
+            - 0
+            - 0
+            - 10
+mirror_matrix_ring_home:
+    x: 285.84978420000004
+    'y': 40.0571339
+    r: 12
+    meta:
+        stagger: 10
+        spread: 19
+        splay: -2
+        origin:
+            - -12
+            - -19
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_ring_home
+        name: mirror_matrix_ring_home
+        zone:
+            columns:
+                outer:
+                    rows:
+                        bottom:
+                            skip: true
+                        num:
+                            adjust:
+                                rotate: 15
+                                shift:
+                                    - '-.25kx'
+                                    - 0
+                    key: {}
+                    name: outer
+                pinky:
+                    key:
+                        stagger: ky
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 10
+                        splay: -2
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: -2
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top:
+                    padding: pokey
+                num:
+                    tags: poke
+                    height: pokey
+                    width: hingex
+            name: matrix
+        col:
+            key:
+                origin:
+                    - -12
+                    - -19
+                stagger: 10
+                splay: -2
+            rows: {}
+            name: ring
+        row: home
+        mirrored: true
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+mirror_matrix_ring_top:
+    x: 281.89946210000005
+    'y': 58.6419383
+    r: 12
+    meta:
+        stagger: 10
+        spread: 19
+        splay: -2
+        origin:
+            - -12
+            - -19
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 25.25
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_ring_top
+        name: mirror_matrix_ring_top
+        zone:
+            columns:
+                outer:
+                    rows:
+                        bottom:
+                            skip: true
+                        num:
+                            adjust:
+                                rotate: 15
+                                shift:
+                                    - '-.25kx'
+                                    - 0
+                    key: {}
+                    name: outer
+                pinky:
+                    key:
+                        stagger: ky
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 10
+                        splay: -2
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: -2
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top:
+                    padding: pokey
+                num:
+                    tags: poke
+                    height: pokey
+                    width: hingex
+            name: matrix
+        col:
+            key:
+                origin:
+                    - -12
+                    - -19
+                stagger: 10
+                splay: -2
+            rows: {}
+            name: ring
+        row: top
+        mirrored: true
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+mirror_matrix_ring_num:
+    x: 276.64969190000005
+    'y': 83.3401652
+    r: 12
+    meta:
+        stagger: 10
+        spread: 19
+        splay: -2
+        origin:
+            - -12
+            - -19
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 14
+        height: 25.25
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_ring_num
+        name: mirror_matrix_ring_num
+        tags: poke
+        zone:
+            columns:
+                outer:
+                    rows:
+                        bottom:
+                            skip: true
+                        num:
+                            adjust:
+                                rotate: 15
+                                shift:
+                                    - '-.25kx'
+                                    - 0
+                    key: {}
+                    name: outer
+                pinky:
+                    key:
+                        stagger: ky
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 10
+                        splay: -2
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: -2
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top:
+                    padding: pokey
+                num:
+                    tags: poke
+                    height: pokey
+                    width: hingex
+            name: matrix
+        col:
+            key:
+                origin:
+                    - -12
+                    - -19
+                stagger: 10
+                splay: -2
+            rows: {}
+            name: ring
+        row: num
+        mirrored: true
+        bind:
+            - 0
+            - 10
+            - 10
+            - 0
+mirror_matrix_middle_bottom:
+    x: 270.17574340000004
+    'y': 22.4127453
+    r: 12
+    meta:
+        stagger: 5
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_middle_bottom
+        name: mirror_matrix_middle_bottom
+        zone:
+            columns:
+                outer:
+                    rows:
+                        bottom:
+                            skip: true
+                        num:
+                            adjust:
+                                rotate: 15
+                                shift:
+                                    - '-.25kx'
+                                    - 0
+                    key: {}
+                    name: outer
+                pinky:
+                    key:
+                        stagger: ky
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 10
+                        splay: -2
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: -2
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top:
+                    padding: pokey
+                num:
+                    tags: poke
+                    height: pokey
+                    width: hingex
+            name: matrix
+        col:
+            key:
+                stagger: 5
+            rows: {}
+            name: middle
+        row: bottom
+        mirrored: true
+        bind:
+            - 10
+            - 10
+            - 0
+            - 10
+mirror_matrix_middle_home:
+    x: 266.22542130000005
+    'y': 40.9975497
+    r: 12
+    meta:
+        stagger: 5
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_middle_home
+        name: mirror_matrix_middle_home
+        zone:
+            columns:
+                outer:
+                    rows:
+                        bottom:
+                            skip: true
+                        num:
+                            adjust:
+                                rotate: 15
+                                shift:
+                                    - '-.25kx'
+                                    - 0
+                    key: {}
+                    name: outer
+                pinky:
+                    key:
+                        stagger: ky
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 10
+                        splay: -2
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: -2
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top:
+                    padding: pokey
+                num:
+                    tags: poke
+                    height: pokey
+                    width: hingex
+            name: matrix
+        col:
+            key:
+                stagger: 5
+            rows: {}
+            name: middle
+        row: home
+        mirrored: true
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+mirror_matrix_middle_top:
+    x: 262.27509920000006
+    'y': 59.5823542
+    r: 12
+    meta:
+        stagger: 5
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 25.25
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_middle_top
+        name: mirror_matrix_middle_top
+        zone:
+            columns:
+                outer:
+                    rows:
+                        bottom:
+                            skip: true
+                        num:
+                            adjust:
+                                rotate: 15
+                                shift:
+                                    - '-.25kx'
+                                    - 0
+                    key: {}
+                    name: outer
+                pinky:
+                    key:
+                        stagger: ky
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 10
+                        splay: -2
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: -2
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top:
+                    padding: pokey
+                num:
+                    tags: poke
+                    height: pokey
+                    width: hingex
+            name: matrix
+        col:
+            key:
+                stagger: 5
+            rows: {}
+            name: middle
+        row: top
+        mirrored: true
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+mirror_matrix_middle_num:
+    x: 257.02532900000006
+    'y': 84.2805811
+    r: 12
+    meta:
+        stagger: 5
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 14
+        height: 25.25
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_middle_num
+        name: mirror_matrix_middle_num
+        tags: poke
+        zone:
+            columns:
+                outer:
+                    rows:
+                        bottom:
+                            skip: true
+                        num:
+                            adjust:
+                                rotate: 15
+                                shift:
+                                    - '-.25kx'
+                                    - 0
+                    key: {}
+                    name: outer
+                pinky:
+                    key:
+                        stagger: ky
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 10
+                        splay: -2
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: -2
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top:
+                    padding: pokey
+                num:
+                    tags: poke
+                    height: pokey
+                    width: hingex
+            name: matrix
+        col:
+            key:
+                stagger: 5
+            rows: {}
+            name: middle
+        row: num
+        mirrored: true
+        bind:
+            - 0
+            - 0
+            - 10
+            - 0
+mirror_matrix_index_bottom:
+    x: 252.83840910000004
+    'y': 12.5935376
+    r: 12
+    meta:
+        stagger: -6
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_index_bottom
+        name: mirror_matrix_index_bottom
+        zone:
+            columns:
+                outer:
+                    rows:
+                        bottom:
+                            skip: true
+                        num:
+                            adjust:
+                                rotate: 15
+                                shift:
+                                    - '-.25kx'
+                                    - 0
+                    key: {}
+                    name: outer
+                pinky:
+                    key:
+                        stagger: ky
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 10
+                        splay: -2
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: -2
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top:
+                    padding: pokey
+                num:
+                    tags: poke
+                    height: pokey
+                    width: hingex
+            name: matrix
+        col:
+            key:
+                stagger: -6
+            rows: {}
+            name: index
+        row: bottom
+        mirrored: true
+        bind:
+            - 10
+            - 10
+            - 0
+            - 0
+mirror_matrix_index_home:
+    x: 248.88808710000006
+    'y': 31.178342
+    r: 12
+    meta:
+        stagger: -6
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_index_home
+        name: mirror_matrix_index_home
+        zone:
+            columns:
+                outer:
+                    rows:
+                        bottom:
+                            skip: true
+                        num:
+                            adjust:
+                                rotate: 15
+                                shift:
+                                    - '-.25kx'
+                                    - 0
+                    key: {}
+                    name: outer
+                pinky:
+                    key:
+                        stagger: ky
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 10
+                        splay: -2
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: -2
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top:
+                    padding: pokey
+                num:
+                    tags: poke
+                    height: pokey
+                    width: hingex
+            name: matrix
+        col:
+            key:
+                stagger: -6
+            rows: {}
+            name: index
+        row: home
+        mirrored: true
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+mirror_matrix_index_top:
+    x: 244.93776500000004
+    'y': 49.7631464
+    r: 12
+    meta:
+        stagger: -6
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 25.25
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_index_top
+        name: mirror_matrix_index_top
+        zone:
+            columns:
+                outer:
+                    rows:
+                        bottom:
+                            skip: true
+                        num:
+                            adjust:
+                                rotate: 15
+                                shift:
+                                    - '-.25kx'
+                                    - 0
+                    key: {}
+                    name: outer
+                pinky:
+                    key:
+                        stagger: ky
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 10
+                        splay: -2
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: -2
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top:
+                    padding: pokey
+                num:
+                    tags: poke
+                    height: pokey
+                    width: hingex
+            name: matrix
+        col:
+            key:
+                stagger: -6
+            rows: {}
+            name: index
+        row: top
+        mirrored: true
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+mirror_matrix_index_num:
+    x: 239.68799480000004
+    'y': 74.4613734
+    r: 12
+    meta:
+        stagger: -6
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 14
+        height: 25.25
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_index_num
+        name: mirror_matrix_index_num
+        tags: poke
+        zone:
+            columns:
+                outer:
+                    rows:
+                        bottom:
+                            skip: true
+                        num:
+                            adjust:
+                                rotate: 15
+                                shift:
+                                    - '-.25kx'
+                                    - 0
+                    key: {}
+                    name: outer
+                pinky:
+                    key:
+                        stagger: ky
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 10
+                        splay: -2
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: -2
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top:
+                    padding: pokey
+                num:
+                    tags: poke
+                    height: pokey
+                    width: hingex
+            name: matrix
+        col:
+            key:
+                stagger: -6
+            rows: {}
+            name: index
+        row: num
+        mirrored: true
+        bind:
+            - 0
+            - 0
+            - 10
+            - 10
+mirror_matrix_inner_bottom:
+    x: 234.66942810000006
+    'y': 6.6869203
+    r: 12
+    meta:
+        stagger: -2
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_inner_bottom
+        name: mirror_matrix_inner_bottom
+        zone:
+            columns:
+                outer:
+                    rows:
+                        bottom:
+                            skip: true
+                        num:
+                            adjust:
+                                rotate: 15
+                                shift:
+                                    - '-.25kx'
+                                    - 0
+                    key: {}
+                    name: outer
+                pinky:
+                    key:
+                        stagger: ky
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 10
+                        splay: -2
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: -2
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top:
+                    padding: pokey
+                num:
+                    tags: poke
+                    height: pokey
+                    width: hingex
+            name: matrix
+        col:
+            key:
+                stagger: -2
+            rows: {}
+            name: inner
+        row: bottom
+        mirrored: true
+        bind:
+            - 10
+            - 0
+            - 0
+            - 0
+mirror_matrix_inner_home:
+    x: 230.71910610000003
+    'y': 25.2717247
+    r: 12
+    meta:
+        stagger: -2
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_inner_home
+        name: mirror_matrix_inner_home
+        zone:
+            columns:
+                outer:
+                    rows:
+                        bottom:
+                            skip: true
+                        num:
+                            adjust:
+                                rotate: 15
+                                shift:
+                                    - '-.25kx'
+                                    - 0
+                    key: {}
+                    name: outer
+                pinky:
+                    key:
+                        stagger: ky
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 10
+                        splay: -2
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: -2
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top:
+                    padding: pokey
+                num:
+                    tags: poke
+                    height: pokey
+                    width: hingex
+            name: matrix
+        col:
+            key:
+                stagger: -2
+            rows: {}
+            name: inner
+        row: home
+        mirrored: true
+        bind:
+            - 10
+            - 0
+            - 10
+            - 10
+mirror_matrix_inner_top:
+    x: 226.76878400000004
+    'y': 43.8565291
+    r: 12
+    meta:
+        stagger: -2
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 25.25
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_inner_top
+        name: mirror_matrix_inner_top
+        zone:
+            columns:
+                outer:
+                    rows:
+                        bottom:
+                            skip: true
+                        num:
+                            adjust:
+                                rotate: 15
+                                shift:
+                                    - '-.25kx'
+                                    - 0
+                    key: {}
+                    name: outer
+                pinky:
+                    key:
+                        stagger: ky
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 10
+                        splay: -2
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: -2
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top:
+                    padding: pokey
+                num:
+                    tags: poke
+                    height: pokey
+                    width: hingex
+            name: matrix
+        col:
+            key:
+                stagger: -2
+            rows: {}
+            name: inner
+        row: top
+        mirrored: true
+        bind:
+            - 10
+            - 0
+            - 10
+            - 10
+mirror_matrix_inner_num:
+    x: 221.51901380000004
+    'y': 68.554756
+    r: 12
+    meta:
+        stagger: -2
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 14
+        height: 25.25
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_inner_num
+        name: mirror_matrix_inner_num
+        tags: poke
+        zone:
+            columns:
+                outer:
+                    rows:
+                        bottom:
+                            skip: true
+                        num:
+                            adjust:
+                                rotate: 15
+                                shift:
+                                    - '-.25kx'
+                                    - 0
+                    key: {}
+                    name: outer
+                pinky:
+                    key:
+                        stagger: ky
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 10
+                        splay: -2
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: 5
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: -6
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: -2
+                    rows: {}
+                    name: inner
+            rows:
+                bottom: {}
+                home: {}
+                top:
+                    padding: pokey
+                num:
+                    tags: poke
+                    height: pokey
+                    width: hingex
+            name: matrix
+        col:
+            key:
+                stagger: -2
+            rows: {}
+            name: inner
+        row: num
+        mirrored: true
+        bind:
+            - 0
+            - 0
+            - 10
+            - 10
+mirror_thumbfan_squeeze_thumb:
+    x: 252.60542970000006
+    'y': -8.9762532
+    r: -78
+    meta:
+        stagger: 0
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust:
+            rotate: 90
+        width: 14
+        height: 25.25
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_squeeze_thumb
+        name: mirror_thumbfan_squeeze_thumb
+        tags: poke
+        zone:
+            columns:
+                squeeze:
+                    rows:
+                        poke:
+                            skip: true
+                        thumb:
+                            tags: poke
+                            height: pokey
+                            width: hingex
+                            adjust:
+                                rotate: 90
+                    key: {}
+                    name: squeeze
+                near:
+                    key:
+                        spread: 1.75kx
+                        width: 1.75kx
+                        padding: pokey
+                    rows:
+                        poke:
+                            adjust:
+                                shift:
+                                    - -2
+                                    - 0
+                    name: near
+                extra:
+                    key:
+                        padding: pokey
+                        spread: 0
+                    rows:
+                        thumb:
+                            skip: true
+                        poke:
+                            adjust:
+                                shift:
+                                    - kx
+                                    - 0
+                                rotate: -15
+                    name: extra
+                home:
+                    key:
+                        splay: -25
+                        stagger: '-ky'
+                        spread: 1.25kx
+                        padding: pokey
+                    rows:
+                        poke:
+                            adjust:
+                                rotate: -35
+                    name: home
+            rows:
+                thumb: {}
+                poke:
+                    tags: poke
+                    width: plate_hole
+                    height: pokey
+            name: thumbfan
+        col:
+            rows:
+                poke:
+                    skip: true
+                thumb:
+                    tags: poke
+                    height: pokey
+                    width: hingex
+                    adjust:
+                        rotate: 90
+            key: {}
+            name: squeeze
+        row: thumb
+        mirrored: true
+        bind:
+            - 0
+            - 10
+            - 0
+            - 0
+mirror_thumbfan_near_thumb:
+    x: 219.99643410000004
+    'y': -15.9075092
+    r: 12
+    meta:
+        stagger: 0
+        spread: 33.3375
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 33.3375
+        height: 18
+        padding: 25.25
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_near_thumb
+        name: mirror_thumbfan_near_thumb
+        zone:
+            columns:
+                squeeze:
+                    rows:
+                        poke:
+                            skip: true
+                        thumb:
+                            tags: poke
+                            height: pokey
+                            width: hingex
+                            adjust:
+                                rotate: 90
+                    key: {}
+                    name: squeeze
+                near:
+                    key:
+                        spread: 1.75kx
+                        width: 1.75kx
+                        padding: pokey
+                    rows:
+                        poke:
+                            adjust:
+                                shift:
+                                    - -2
+                                    - 0
+                    name: near
+                extra:
+                    key:
+                        padding: pokey
+                        spread: 0
+                    rows:
+                        thumb:
+                            skip: true
+                        poke:
+                            adjust:
+                                shift:
+                                    - kx
+                                    - 0
+                                rotate: -15
+                    name: extra
+                home:
+                    key:
+                        splay: -25
+                        stagger: '-ky'
+                        spread: 1.25kx
+                        padding: pokey
+                    rows:
+                        poke:
+                            adjust:
+                                rotate: -35
+                    name: home
+            rows:
+                thumb: {}
+                poke:
+                    tags: poke
+                    width: plate_hole
+                    height: pokey
+            name: thumbfan
+        col:
+            key:
+                spread: 1.75kx
+                width: 1.75kx
+                padding: pokey
+            rows:
+                poke:
+                    adjust:
+                        shift:
+                            - -2
+                            - 0
+            name: near
+        row: thumb
+        mirrored: true
+        bind:
+            - 10
+            - 0
+            - 0
+            - 0
+mirror_thumbfan_near_poke:
+    x: 216.70295910000004
+    'y': 9.2065411
+    r: 12
+    meta:
+        stagger: 0
+        spread: 33.3375
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust:
+            shift:
+                - -2
+                - 0
+        width: 14
+        height: 25.25
+        padding: 25.25
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_near_poke
+        name: mirror_thumbfan_near_poke
+        tags: poke
+        zone:
+            columns:
+                squeeze:
+                    rows:
+                        poke:
+                            skip: true
+                        thumb:
+                            tags: poke
+                            height: pokey
+                            width: hingex
+                            adjust:
+                                rotate: 90
+                    key: {}
+                    name: squeeze
+                near:
+                    key:
+                        spread: 1.75kx
+                        width: 1.75kx
+                        padding: pokey
+                    rows:
+                        poke:
+                            adjust:
+                                shift:
+                                    - -2
+                                    - 0
+                    name: near
+                extra:
+                    key:
+                        padding: pokey
+                        spread: 0
+                    rows:
+                        thumb:
+                            skip: true
+                        poke:
+                            adjust:
+                                shift:
+                                    - kx
+                                    - 0
+                                rotate: -15
+                    name: extra
+                home:
+                    key:
+                        splay: -25
+                        stagger: '-ky'
+                        spread: 1.25kx
+                        padding: pokey
+                    rows:
+                        poke:
+                            adjust:
+                                rotate: -35
+                    name: home
+            rows:
+                thumb: {}
+                poke:
+                    tags: poke
+                    width: plate_hole
+                    height: pokey
+            name: thumbfan
+        col:
+            key:
+                spread: 1.75kx
+                width: 1.75kx
+                padding: pokey
+            rows:
+                poke:
+                    adjust:
+                        shift:
+                            - -2
+                            - 0
+            name: near
+        row: poke
+        mirrored: true
+        bind:
+            - 0
+            - 0
+            - 10
+            - 0
+mirror_thumbfan_extra_poke:
+    x: 196.11295210000003
+    'y': 4.83
+    r: 27
+    meta:
+        stagger: 0
+        spread: 0
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust:
+            shift:
+                - kx
+                - 0
+            rotate: -15
+        width: 14
+        height: 25.25
+        padding: 25.25
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_extra_poke
+        name: mirror_thumbfan_extra_poke
+        tags: poke
+        zone:
+            columns:
+                squeeze:
+                    rows:
+                        poke:
+                            skip: true
+                        thumb:
+                            tags: poke
+                            height: pokey
+                            width: hingex
+                            adjust:
+                                rotate: 90
+                    key: {}
+                    name: squeeze
+                near:
+                    key:
+                        spread: 1.75kx
+                        width: 1.75kx
+                        padding: pokey
+                    rows:
+                        poke:
+                            adjust:
+                                shift:
+                                    - -2
+                                    - 0
+                    name: near
+                extra:
+                    key:
+                        padding: pokey
+                        spread: 0
+                    rows:
+                        thumb:
+                            skip: true
+                        poke:
+                            adjust:
+                                shift:
+                                    - kx
+                                    - 0
+                                rotate: -15
+                    name: extra
+                home:
+                    key:
+                        splay: -25
+                        stagger: '-ky'
+                        spread: 1.25kx
+                        padding: pokey
+                    rows:
+                        poke:
+                            adjust:
+                                rotate: -35
+                    name: home
+            rows:
+                thumb: {}
+                poke:
+                    tags: poke
+                    width: plate_hole
+                    height: pokey
+            name: thumbfan
+        col:
+            key:
+                padding: pokey
+                spread: 0
+            rows:
+                thumb:
+                    skip: true
+                poke:
+                    adjust:
+                        shift:
+                            - kx
+                            - 0
+                        rotate: -15
+            name: extra
+        row: poke
+        mirrored: true
+        bind:
+            - 0
+            - 0
+            - 0
+            - 10
+mirror_thumbfan_home_thumb:
+    x: 200.66501200000005
+    'y': -39.4921182
+    r: 37
+    meta:
+        stagger: -19.05
+        spread: 23.8125
+        splay: -25
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 25.25
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_home_thumb
+        name: mirror_thumbfan_home_thumb
+        zone:
+            columns:
+                squeeze:
+                    rows:
+                        poke:
+                            skip: true
+                        thumb:
+                            tags: poke
+                            height: pokey
+                            width: hingex
+                            adjust:
+                                rotate: 90
+                    key: {}
+                    name: squeeze
+                near:
+                    key:
+                        spread: 1.75kx
+                        width: 1.75kx
+                        padding: pokey
+                    rows:
+                        poke:
+                            adjust:
+                                shift:
+                                    - -2
+                                    - 0
+                    name: near
+                extra:
+                    key:
+                        padding: pokey
+                        spread: 0
+                    rows:
+                        thumb:
+                            skip: true
+                        poke:
+                            adjust:
+                                shift:
+                                    - kx
+                                    - 0
+                                rotate: -15
+                    name: extra
+                home:
+                    key:
+                        splay: -25
+                        stagger: '-ky'
+                        spread: 1.25kx
+                        padding: pokey
+                    rows:
+                        poke:
+                            adjust:
+                                rotate: -35
+                    name: home
+            rows:
+                thumb: {}
+                poke:
+                    tags: poke
+                    width: plate_hole
+                    height: pokey
+            name: thumbfan
+        col:
+            key:
+                splay: -25
+                stagger: '-ky'
+                spread: 1.25kx
+                padding: pokey
+            rows:
+                poke:
+                    adjust:
+                        rotate: -35
+            name: home
+        row: thumb
+        mirrored: true
+        bind:
+            - 10
+            - 0
+            - 0
+            - 0
+mirror_thumbfan_home_poke:
+    x: 185.46918270000003
+    'y': -19.3265716
+    r: 72
+    meta:
+        stagger: -19.05
+        spread: 23.8125
+        splay: -25
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust:
+            rotate: -35
+        width: 14
+        height: 25.25
+        padding: 25.25
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_home_poke
+        name: mirror_thumbfan_home_poke
+        tags: poke
+        zone:
+            columns:
+                squeeze:
+                    rows:
+                        poke:
+                            skip: true
+                        thumb:
+                            tags: poke
+                            height: pokey
+                            width: hingex
+                            adjust:
+                                rotate: 90
+                    key: {}
+                    name: squeeze
+                near:
+                    key:
+                        spread: 1.75kx
+                        width: 1.75kx
+                        padding: pokey
+                    rows:
+                        poke:
+                            adjust:
+                                shift:
+                                    - -2
+                                    - 0
+                    name: near
+                extra:
+                    key:
+                        padding: pokey
+                        spread: 0
+                    rows:
+                        thumb:
+                            skip: true
+                        poke:
+                            adjust:
+                                shift:
+                                    - kx
+                                    - 0
+                                rotate: -15
+                    name: extra
+                home:
+                    key:
+                        splay: -25
+                        stagger: '-ky'
+                        spread: 1.25kx
+                        padding: pokey
+                    rows:
+                        poke:
+                            adjust:
+                                rotate: -35
+                    name: home
+            rows:
+                thumb: {}
+                poke:
+                    tags: poke
+                    width: plate_hole
+                    height: pokey
+            name: thumbfan
+        col:
+            key:
+                splay: -25
+                stagger: '-ky'
+                spread: 1.25kx
+                padding: pokey
+            rows:
+                poke:
+                    adjust:
+                        rotate: -35
+            name: home
+        row: poke
+        mirrored: true
+        bind:
+            - 0
+            - 0
+            - 10
+            - 0

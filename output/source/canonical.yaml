@@ -1,0 +1,255 @@
+meta:
+    engine: 4.0.5
+    author: Josh Grebler
+units:
+    kx: U
+    ky: U
+    px: kx + 4
+    py: ky + 4
+    plate_hole: 14
+    hingex: 14
+    hingey: 8.5
+    hinge_space: 2.75
+    pokey: plate_hole + hinge_space + hingey
+    ppokey: ky + hinge_space + hingey + 4
+points:
+    zones:
+        matrix:
+            columns:
+                outer:
+                    rows:
+                        bottom:
+                            skip: true
+                        num:
+                            adjust:
+                                rotate: 15
+                                shift:
+                                    - '-.25kx'
+                                    - 0
+                pinky:
+                    key:
+                        stagger: ky
+                ring:
+                    key:
+                        origin:
+                            - -12
+                            - -19
+                        stagger: 10
+                        splay: -2
+                middle:
+                    key:
+                        stagger: 5
+                index:
+                    key:
+                        stagger: -6
+                inner:
+                    key:
+                        stagger: -2
+            rows:
+                bottom: null
+                home: null
+                top:
+                    padding: pokey
+                num:
+                    tags: poke
+                    height: pokey
+                    width: hingex
+        thumbfan:
+            anchor:
+                ref: matrix_inner_bottom
+                shift:
+                    - '-.75U'
+                    - '-U'
+            columns:
+                squeeze:
+                    rows:
+                        poke:
+                            skip: true
+                        thumb:
+                            tags: poke
+                            height: pokey
+                            width: hingex
+                            adjust:
+                                rotate: 90
+                near:
+                    key:
+                        spread: 1.75kx
+                        width: 1.75kx
+                        padding: pokey
+                    rows:
+                        poke:
+                            adjust:
+                                shift:
+                                    - -2
+                                    - 0
+                extra:
+                    key:
+                        padding: pokey
+                        spread: 0
+                    rows:
+                        thumb:
+                            skip: true
+                        poke:
+                            adjust:
+                                shift:
+                                    - kx
+                                    - 0
+                                rotate: -15
+                home:
+                    key:
+                        splay: -25
+                        stagger: '-ky'
+                        spread: 1.25kx
+                        padding: pokey
+                    rows:
+                        poke:
+                            adjust:
+                                rotate: -35
+            rows:
+                thumb: null
+                poke:
+                    tags: poke
+                    width: plate_hole
+                    height: pokey
+    rotate: -10
+    mirror:
+        ref: thumbfan_home_poke
+        distance: 2kx
+outlines:
+    plate_holes:
+        -
+            what: rectangle
+            where:
+                - keys
+                - '-poke'
+            size:
+                - 14
+                - 14
+    poke_holes:
+        -
+            what: rectangle
+            operation: stack
+            size:
+                - hingex
+                - hingey
+            adjust:
+                shift:
+                    - 0
+                    - 0.5*(-pokey)+0.5*hingey
+            where: poke
+        -
+            what: rectangle
+            operation: stack
+            size:
+                - plate_hole
+                - plate_hole
+            adjust:
+                shift:
+                    - 0
+                    - 0.5*pokey-0.5*plate_hole
+            where: poke
+    board:
+        -
+            what: polygon
+            operation: stack
+            points:
+                -
+                    ref: matrix_outer_num
+                    shift:
+                        - '-0.5px'
+                        - 0.5ppokey
+                -
+                    ref: matrix_pinky_num
+                    shift:
+                        - '-0.5px'
+                        - 0.5ppokey
+                -
+                    ref: matrix_ring_num
+                    shift:
+                        - '-0.5px'
+                        - 0.5ppokey
+                -
+                    ref: mirror_matrix_ring_num
+                    shift:
+                        - '-0.5px'
+                        - 0.5ppokey
+                -
+                    ref: mirror_matrix_pinky_num
+                    shift:
+                        - '-0.5px'
+                        - 0.5ppokey
+                -
+                    ref: mirror_matrix_outer_num
+                    shift:
+                        - '-0.5px'
+                        - 0.5ppokey
+                -
+                    ref: mirror_matrix_outer_home
+                    shift:
+                        - '-0.5px'
+                        - '-0.5py'
+                -
+                    ref: mirror_matrix_pinky_bottom
+                    shift:
+                        - '-0.5px'
+                        - '-0.5py'
+                -
+                    ref: mirror_thumbfan_squeeze_thumb
+                    shift:
+                        - '-0.5px'
+                        - 0.5ppokey
+                -
+                    ref: mirror_thumbfan_squeeze_thumb
+                    shift:
+                        - '-.5px'
+                        - '-0.5ppokey'
+                -
+                    ref: mirror_thumbfan_home_thumb
+                    shift:
+                        - '-0.5px'
+                        - '-.5py'
+                -
+                    ref: mirror_thumbfan_home_thumb
+                    shift:
+                        - 0.5px
+                        - '-.5py'
+                -
+                    ref: thumbfan_home_thumb
+                    shift:
+                        - 0.5px
+                        - '-.5py'
+                -
+                    ref: thumbfan_home_thumb
+                    shift:
+                        - '-0.5px'
+                        - '-.5py'
+                -
+                    ref: thumbfan_near_thumb
+                    shift:
+                        - '-0.825px'
+                        - '-.5py'
+                -
+                    ref: thumbfan_squeeze_thumb
+                    shift:
+                        - '-0.5px'
+                        - 0.5ppokey
+                -
+                    ref: matrix_pinky_bottom
+                    shift:
+                        - '-0.5px'
+                        - '-0.5py'
+                -
+                    ref: matrix_outer_home
+                    shift:
+                        - '-0.5px'
+                        - '-0.5py'
+            fillet: 3
+    plate_with_holes:
+        -
+            name: board
+        -
+            operation: subtract
+            name: plate_holes
+        -
+            operation: subtract
+            name: poke_holes
