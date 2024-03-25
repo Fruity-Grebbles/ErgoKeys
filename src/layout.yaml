@@ -150,8 +150,8 @@ outlines:
           shift: [0.5px,-.5py]
         - ref: thumbfan_home_thumb
           shift: [-0.5px,-.5py]
-        - ref: thumbfan_near_thumb
-          shift: [-0.825px,-.5py]
+        - ref: thumbfan_squeeze_thumb
+          shift: [-.5px,-0.5ppokey]
         - ref: thumbfan_squeeze_thumb
           shift: [-0.5px,0.5ppokey]
         - ref: matrix_pinky_bottom
