@@ -117,47 +117,6 @@ outlines:
       size: [plate_hole, plate_hole]
       adjust.shift: [0, 0.5*pokey-0.5*plate_hole]
       where: poke
-
-  board:
-    - what: polygon
-      operation: stack
-      points:
-        - ref: matrix_outer_num
-          shift: [-0.5px, 0.5ppokey]
-        - ref: matrix_pinky_num
-          shift: [-0.5px, 0.5ppokey]
-        - ref: matrix_ring_num
-          shift: [-0.5px, 0.5ppokey]
-        - ref: mirror_matrix_ring_num
-          shift: [-0.5px, 0.5ppokey]
-        - ref: mirror_matrix_pinky_num
-          shift: [-0.5px, 0.5ppokey]
-        - ref: mirror_matrix_outer_num
-          shift: [-0.5px, 0.5ppokey]
-        - ref: mirror_matrix_outer_home
-          shift: [-0.5px,-0.5py]
-        - ref: mirror_matrix_pinky_bottom
-          shift: [-0.5px,-0.5py]
-        - ref: mirror_thumbfan_squeeze_thumb
-          shift: [-0.5px,0.5ppokey]
-        - ref: mirror_thumbfan_squeeze_thumb
-          shift: [-.5px,-0.5ppokey]
-        - ref: mirror_thumbfan_home_thumb
-          shift: [-0.5px,-.5py]
-        - ref: mirror_thumbfan_home_thumb
-          shift: [0.5px,-.5py]
-        - ref: thumbfan_home_thumb
-          shift: [0.5px,-.5py]
-        - ref: thumbfan_home_thumb
-          shift: [-0.5px,-.5py]
-        - ref: thumbfan_squeeze_thumb
-          shift: [-.5px,-0.5ppokey]
-        - ref: thumbfan_squeeze_thumb
-          shift: [-0.5px,0.5ppokey]
-        - ref: matrix_pinky_bottom
-          shift: [-0.5px,-0.5py]
-        - ref: matrix_outer_home
-          shift: [-0.5px,-0.5py]
       fillet: 3
   # combo:
   # - name: board
