@@ -96,15 +96,7 @@ points:
     distance: 2kx
 
 outlines:
-  # raw:
-  #   - what: rectangle
-  #     where: true
-  #     size: [kx, ky]
-  # keys:
-  #   - what: rectangle
-  #     where: true
-  #     bound: false
-  #     size: [kx-0.5,ky-0.5]
+  keycaps:
   plate_holes:
     - what: rectangle
       where: [keys, -poke]
