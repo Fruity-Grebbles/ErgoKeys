@@ -111,10 +111,11 @@ outlines:
       size: [1.75kx, ky]
       fillet: 1
   plate_holes:
+    # Normal switch plate holes
     - what: rectangle
-      where: [keys, -poke]
+      operation: stack
+      where: [-poke]
       size: [14, 14]
-  poke_holes:
     # plate holes for the poke hinges and keyswitches
     - what: rectangle
       operation: stack
@@ -126,8 +127,7 @@ outlines:
       size: [plate_hole, plate_hole]
       adjust.shift: [0, 0.5*pokey-0.5*plate_hole]
       where: poke
-      fillet: 3
-  # combo:
+  # plate_with_holes:
   # - name: board
   # - operation: subtract
   #   name: keys
