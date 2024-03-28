@@ -1,0 +1,93 @@
+units:
+  expansion_amount: 4
+  case_wall_thickness: 2.5
+  pcb_to_case_wall_tolerance: 0.5
+points:
+  zones:
+    matrix:
+      columns:
+        outer:
+        pinky:
+        ring:
+          key.stagger: 5
+          key.bind: [0,0,5,0]
+        middle:
+          key.stagger: 5
+          key.bind: [0,0,10,0]
+        index:
+          key.stagger: -5
+          #key.bind: [0,0,5,0]
+        inner:
+          key.stagger: -5
+      rows:
+        bottom:
+        home:
+        top:
+    thumbfan:
+      anchor:
+        ref: matrix_inner_bottom
+        shift: [-7, -19]
+      columns:
+        near:
+          key.bind: [5,7,0,0]
+        home:
+          key.spread: 21.25
+          key.splay: -28
+          key.origin: [-11.75, -9]
+          key.bind: [2,3,0,70]
+        far:
+          key.spread: 21.25
+          key.splay: -28
+          key.origin: [-9.5, -9]
+          key.bind: [0,0,0,50]
+      rows:
+        thumb:
+    mcu:
+      key:
+        bind: [0,0,22+25,3]
+      anchor:
+        - ref: matrix_inner_top
+          shift: [22, 0]
+  mirror:
+    ref: thumbfan_far_thumb
+    distance: u*2.5
+outlines:
+  keycaps:
+    - what: rectangle
+      where: -/mcu/
+      size: 18
+      operation: stack
+      fillet: 0.5
+  mcu_assembly:
+    - what: rectangle
+      where: /mcu/
+      size: [18,40]
+      adjust:
+        shift: [0,-11 + expansion_amount]
+    - what: rectangle
+      where: /mcu/
+      size: [7.5,1.5]
+      adjust:
+        shift: [0,40/2-11+1.5/2 + expansion_amount]
+    - what: circle
+      where: /mcu/
+      radius: 1
+      operation: subtract
+  board_outline_raw:
+    - what: rectangle
+      where: true
+      asym: clone
+      bound: true
+      size: u
+      expand: expansion_amount
+      joints: 1
+  main_pcb:
+    - what: outline
+      name: board_outline_raw
+      fillet: 0.5
+  preview:
+    - what: outline
+      name: main_pcb
+    - what: outline
+      name: mcu_assembly
+      operation: stack
