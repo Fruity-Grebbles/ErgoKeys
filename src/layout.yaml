@@ -97,6 +97,19 @@ points:
 
 outlines:
   keycaps:
+  # 1U keycap
+    - what: rectangle
+      operation: stack
+      where: [[-space, -poke]]
+      bound: false
+      size: [kx-0.5,ky-0.5]
+      fillet: 1
+  # Space keycaps
+    - what: rectangle
+      operation: stack
+      where: space
+      size: [1.75kx, ky]
+      fillet: 1
   plate_holes:
     - what: rectangle
       where: [keys, -poke]
