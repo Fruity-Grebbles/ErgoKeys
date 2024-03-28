@@ -63,8 +63,12 @@ points:
           key.spread: 1.75kx
           key.width: 1.75kx
           key.padding: poke_pad
-          rows.poke:
-            adjust.shift: [-2,0]
+          rows:
+            thumb:
+              tags:
+              - space
+            poke:
+              adjust.shift: [-2,0]
         extra:
           key.padding: poke_pad
           rows.thumb.skip: true
