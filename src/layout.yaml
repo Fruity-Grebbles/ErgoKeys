@@ -128,12 +128,7 @@ outlines:
       adjust.shift: [0, 0.5*pokey-0.5*plate_hole]
       where: poke
   # plate_with_holes:
-  # - name: board
+  # - name: plate
   # - operation: subtract
-  #   name: keys
-  plate_with_holes:
-  - name: board
-  - operation: subtract
-    name: plate_holes
-  - operation: subtract
-    name: poke_holes
+  #   name: plate_holes
+  # - operation: subtract
