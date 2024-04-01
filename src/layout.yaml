@@ -137,6 +137,29 @@ outlines:
       size: [plate_hole, plate_hole]
       adjust.shift: [0, 0.5*pokey-0.5*plate_hole]
       where: poke
+  board_outline_raw:
+  # 1U keycap
+    - what: rectangle
+      operation: stack
+      where: [[-space, -poke]]
+      bound: true
+      size: [kx-0.5,ky-0.5]
+  # Space keycaps
+    - what: rectangle
+      operation: stack
+      where: space
+      size: [1.75kx, ky]
+      bound: true
+  # Poke keys
+    - what: rectangle
+      operation: stack
+      where: poke
+      bound: true
+      size: [plate_hole, pokey]
+  board:
+  - what: outline
+    name: board_outline_raw
+    expand: expansion_amount
   # plate_with_holes:
   # - name: plate
   # - operation: subtract
