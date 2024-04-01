@@ -14,27 +14,35 @@ units:
   pokey: plate_hole + hinge_space + hingey
   ppokey: ky + hinge_space + hingey + 4
   poke_pad: pokey-3
+  expansion_amount: 4
 
 points:
   zones:
     matrix:
       columns:
         outer:
+          key.autobind:
           rows:
             bottom.skip: true
             num.adjust.rotate: 40
             num.adjust.shift: [-.25kx,2]
         pinky:
           key.stagger: ky
+          key.autobind:
         ring:
+          key.autobind:
           key.origin: [-12, -19]
           key.stagger: 10
           key.splay: -2
         middle:
-          key.stagger: 5
+          key:
+            stagger: 5
+            bind: [0,0,py,0]
         index:
+          key.autobind: 10
           key.stagger: -6
         inner:
+          key.autobind: 10
           key.stagger: -2
       rows:
         bottom:
@@ -67,6 +75,7 @@ points:
             thumb:
               tags:
               - space
+              key.bind: [4,5,2,0]
             poke:
               adjust.shift: [-2,0]
         extra:
@@ -77,6 +86,7 @@ points:
             adjust.shift: [kx,0]
             adjust.rotate: -25
         home:
+          key.autobind:
           key.splay: -25
           key.stagger: -ky
           key.spread: 1.25kx
