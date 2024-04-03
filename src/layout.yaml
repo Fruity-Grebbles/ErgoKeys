@@ -155,17 +155,17 @@ outlines:
       operation: stack
       points:
         - ref: matrix_outer_num
-          shift: [-0.5px, 0.75ppokey]
+          shift: [-0.5px, 0.55ppokey]
         # - ref: matrix_pinky_num
         #   shift: [-0.5px, 0.5ppokey]
         - ref: matrix_ring_num
-          shift: [-0.5px, 0.5ppokey]
+          shift: [-0.75px, 0.85ppokey]
         - ref: mirror_matrix_ring_num
-          shift: [-0.5px, 0.5ppokey]
+          shift: [-0.75px, 0.85ppokey]
         # - ref: mirror_matrix_pinky_num
         #   shift: [-0.5px, 0.5ppokey]
         - ref: mirror_matrix_outer_num
-          shift: [-0.5px, 0.75ppokey]
+          shift: [-0.5px, 0.55ppokey]
         - ref: mirror_matrix_outer_home
           shift: [-0.5px,-0.75py]
         # - ref: mirror_matrix_pinky_bottom
