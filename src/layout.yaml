@@ -114,7 +114,7 @@ outlines:
       operation: stack
       where: space
       bound: false
-      size: [1.75*kx-0.5,ky-0.5]
+      size: [1.5*kx-0.5,ky-0.5]
       fillet: 1
     - what: rectangle
       operation: stack
