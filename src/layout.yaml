@@ -186,3 +186,8 @@ outlines:
     name: plate_holes
   - operation: subtract
     name: poke_holes
+  preview:
+    - name: board
+      operation: stack
+    - name: keycaps
+      operation: stack
