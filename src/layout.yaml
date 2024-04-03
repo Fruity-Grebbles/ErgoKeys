@@ -14,6 +14,7 @@ units:
   pokey: plate_hole + hinge_space + hingey
   ppokey: ky + hinge_space + hingey + 4
   poke_pad: pokey-3
+  poke_cap: 1.25pokey
 
 points:
   zones:
@@ -120,7 +121,7 @@ outlines:
       operation: stack
       where: poke
       bound: false
-      size: [hingex, pokey]
+      size: [hingex, poke_cap]
       fillet: 1
     - what: rectangle
       operation: stack
