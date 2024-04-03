@@ -70,16 +70,17 @@ points:
           key.splay: -10
           key.origin: [-kx, -.5ky]
           key.width: 1.5kx
-          key.padding: 1.25poke_pad
+          key.padding: 1.15poke_pad
           rows.thumb.tags: space
           rows.poke:
-            adjust.rotate: 50
+            adjust.shift: [-2,0]
+            adjust.rotate: 30
         extra:
           rows.poke.skip: true
           key.spread: pokey+2
           rows.thumb:
             tags: poke
-            adjust.shift: [0,-.25hingey]
+            adjust.shift: [0,-.3hingey]
             adjust.rotate: -100
         # home:
         #   key.splay: -25
