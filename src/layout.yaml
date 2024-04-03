@@ -75,7 +75,6 @@ points:
           rows.poke:
             adjust.rotate: 50
         extra:
-          key.padding: poke_pad/2-3
           rows.poke.skip: true
           key.spread: 0
           rows.thumb:
