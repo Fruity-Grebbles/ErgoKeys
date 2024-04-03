@@ -28,18 +28,27 @@ points:
         pinky:
           key.stagger: ky
           rows.num.adjust:
-            rotate: 50
+            rotate: 45
             shift: [-.15kx,1]
         ring:
           key.origin: [-12, -19]
           key.stagger: 10
           key.splay: -2
+          rows.num.adjust:
+            rotate: 45
+            shift: [-.3kx,1]
         middle:
           key.stagger: 5
         index:
           key.stagger: -6
+          rows.num.adjust:
+            rotate: -35
+            shift: [.2kx,1]
         inner:
           key.stagger: -2
+          rows.num.adjust:
+            rotate: -35
+            shift: [.25kx,1]
       rows:
         bottom:
         home:
