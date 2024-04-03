@@ -76,10 +76,10 @@ points:
             adjust.rotate: 50
         extra:
           rows.poke.skip: true
-          key.spread: 0
+          key.spread: pokey+2
           rows.thumb:
             tags: poke
-            adjust.shift: [1.75kx,0]
+            adjust.shift: [0,-.25hingey]
             adjust.rotate: -100
         # home:
         #   key.splay: -25
