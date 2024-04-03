@@ -76,9 +76,10 @@ points:
             adjust.rotate: 50
         extra:
           key.padding: poke_pad/2-3
-          rows.thumb.skip: true
+          rows.poke.skip: true
           key.spread: 0
-          rows.poke:
+          rows.thumb:
+            tags: poke
             adjust.shift: [1.75kx,0]
             adjust.rotate: -100
         # home:
@@ -97,7 +98,7 @@ points:
   rotate: -10
   mirror:
     # ref: thumbfan_far_thumb
-    ref: thumbfan_extra_poke
+    ref: thumbfan_extra_thumb
     distance: ppokey-2
 
 outlines:
