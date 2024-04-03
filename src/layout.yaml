@@ -62,16 +62,18 @@ points:
         near:
           key.spread: 1.75kx
           key.width: 1.75kx
-          key.padding: poke_pad
+          key.padding: poke_pad + 4
+          rows.thumb.tags: space
           rows.poke:
-            adjust.shift: [-2,0]
+            adjust.rotate: 20
+            adjust.shift: [3.5,0]
         extra:
-          key.padding: poke_pad
+          key.padding: poke_pad/2
           rows.thumb.skip: true
           key.spread: 0
           rows.poke:
-            adjust.shift: [kx,0]
-            adjust.rotate: -25
+            adjust.shift: [1.65kx,0]
+            adjust.rotate: -80
         # home:
         #   key.splay: -25
         #   key.stagger: -ky
@@ -88,7 +90,7 @@ points:
   rotate: -10
   mirror:
     # ref: thumbfan_far_thumb
-    ref: thumbfan_home_poke
+    ref: thumbfan_extra_poke
     distance: 2kx
 
 outlines:
