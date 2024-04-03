@@ -61,7 +61,7 @@ points:
               adjust:
                 rotate: 90
         tuck:
-          key.spread: poke_pad+2.5
+          key.spread: poke_pad+3
           key.width: 1.25kx
           key.tags: mod
           rows.poke.skip: true
