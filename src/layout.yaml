@@ -48,7 +48,7 @@ points:
     thumbfan:
       anchor:
         ref: matrix_inner_bottom
-        shift: [-.75U, -U]
+        shift: [-1.75U, -U]
       columns:
         squeeze:
           rows:
@@ -59,6 +59,11 @@ points:
               width: hingex
               adjust:
                 rotate: 90
+        tuck:
+          key.spread: poke_pad+2.5
+          key.width: 1.25kx
+          key.tags: mod
+          rows.poke.skip: true
         near:
           key.spread: 1.75kx
           key.width: 1.75kx
@@ -100,7 +105,7 @@ outlines:
   #     size: [kx, ky]
   keycaps:
     - what: rectangle
-      where: [[-poke, -space]]
+      where: [[-poke, -space, -mod]]
       bound: false
       size: [kx-0.5,ky-0.5]
       fillet: 1
@@ -115,6 +120,12 @@ outlines:
       where: poke
       bound: false
       size: [hingex, pokey]
+      fillet: 1
+    - what: rectangle
+      operation: stack
+      where: mod
+      bound: false
+      size: [1.25kx-0.5, ky-0.5]
       fillet: 1
   plate_holes:
     - what: rectangle
