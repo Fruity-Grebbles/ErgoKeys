@@ -23,10 +23,13 @@ points:
         outer:
           rows:
             bottom.skip: true
-            num.adjust.rotate: 40
+            num.adjust.rotate: 45
             num.adjust.shift: [-.25kx,2]
         pinky:
           key.stagger: ky
+          rows.num.adjust:
+            rotate: 45
+            shift: [-.15kx,2]
         ring:
           key.origin: [-12, -19]
           key.stagger: 10
