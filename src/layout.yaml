@@ -96,11 +96,24 @@ outlines:
   #   - what: rectangle
   #     where: true
   #     size: [kx, ky]
-  # keys:
-  #   - what: rectangle
-  #     where: true
-  #     bound: false
-  #     size: [kx-0.5,ky-0.5]
+  keycaps:
+    - what: rectangle
+      where: [[-poke, -space]]
+      bound: false
+      size: [kx-0.5,ky-0.5]
+      fillet: 1
+    - what: rectangle
+      operation: stack
+      where: space
+      bound: false
+      size: [1.75*kx-0.5,ky-0.5]
+      fillet: 1
+    - what: rectangle
+      operation: stack
+      where: poke
+      bound: false
+      size: [hingex, pokey]
+      fillet: 1
   plate_holes:
     - what: rectangle
       where: [keys, -poke]
