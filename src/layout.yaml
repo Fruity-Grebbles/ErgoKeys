@@ -73,17 +73,17 @@ points:
               adjust:
                 rotate: 90
         tuck:
-          key.spread: poke_pad+3
+          key.spread: poke_pad+2.25
           rows.poke.skip: true
         near:
-          key.spread: 1.25kx
+          key.spread: 1.25kx-.5
           key.splay: -10
           key.origin: [-kx, -.5ky]
           key.width: 1.5kx
           key.padding: 1.15poke_pad
           rows.thumb.tags: space
           rows.poke:
-            adjust.shift: [-3,0]
+            adjust.shift: [-2,0]
             adjust.rotate: 20
         extra:
           rows.poke.skip: true
