@@ -29,26 +29,26 @@ points:
           key.stagger: ky
           rows.num.adjust:
             rotate: 45
-            shift: [-.15kx,1]
+            shift: [-.15kx,2]
         ring:
           key.origin: [-12, -19]
           key.stagger: 10
           key.splay: -2
           rows.num.adjust:
             rotate: 45
-            shift: [-.3kx,1]
+            shift: [-.3kx,2]
         middle:
           key.stagger: 5
         index:
           key.stagger: -6
           rows.num.adjust:
-            rotate: -35
-            shift: [.2kx,1]
+            rotate: -30
+            shift: [.2kx,2]
         inner:
           key.stagger: -2
           rows.num.adjust:
-            rotate: -35
-            shift: [.25kx,1]
+            rotate: -30
+            shift: [.2kx,2]
       rows:
         bottom:
         home:
