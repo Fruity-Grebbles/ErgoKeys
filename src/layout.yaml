@@ -74,11 +74,9 @@ points:
                 rotate: 90
         tuck:
           key.spread: poke_pad+3
-          key.width: 1.25kx
-          key.tags: mod
           rows.poke.skip: true
         near:
-          key.spread: 1.4kx
+          key.spread: 1.25kx
           key.splay: -10
           key.origin: [-kx, -.5ky]
           key.width: 1.5kx
@@ -86,7 +84,7 @@ points:
           rows.thumb.tags: space
           rows.poke:
             adjust.shift: [-3,0]
-            adjust.rotate: 25
+            adjust.rotate: 20
         extra:
           rows.poke.skip: true
           key.spread: pokey+3
@@ -120,7 +118,7 @@ outlines:
   #     size: [kx, ky]
   keycaps:
     - what: rectangle
-      where: [[-poke, -space, -mod]]
+      where: [[-poke, -space]]
       bound: false
       size: [kx-0.5,ky-0.5]
       fillet: 1
@@ -135,12 +133,6 @@ outlines:
       where: poke
       bound: false
       size: [hingex, poke_cap]
-      fillet: 1
-    - what: rectangle
-      operation: stack
-      where: mod
-      bound: false
-      size: [1.25kx-0.5, ky-0.5]
       fillet: 1
   plate_holes:
     - what: rectangle
