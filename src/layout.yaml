@@ -9,8 +9,8 @@ units:
   py: ky + 4
   plate_hole: 14
   hingex: 14
-  hingey: 8.5
-  hinge_space: 2.75
+  hingey: 7.5
+  hinge_space: 3.25
   pokey: plate_hole + hinge_space + hingey
   ppokey: ky + hinge_space + hingey + 4
   poke_pad: pokey-3
