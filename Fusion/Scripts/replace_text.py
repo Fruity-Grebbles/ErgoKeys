@@ -9,34 +9,27 @@ def run(context):
         design = app.activeProduct
         rootComp = design.rootComponent
         
-        # Get the sketch named "ChangeText"
-        sk = rootComp.sketches.itemByName('ChangeText')
+        # Get the sketch for the top label.
+        top_sketch_name = next(sketch for sketch in rootComp.sketches if sketch.name.startswith('Top_Label'))
+        top_sk = rootComp.sketches.itemByName(top_sketch_name)
+        # Get the plane for the top label.
+        top_plane = top_sk.referencePlane
+        # Create a new sketch for our new text.
+        new_top_sketch = rootComp.sketches.add(top_plane)
+        # Copy the existing sketch contents to the new sketch.
+        top_sk.copy(top_sk.sketchCurves, adsk.core.Vector3D.create(), new_top_sketch)
+        # Get the first sketch text on the top label.
+        top_skText_main = top_sk.sketchTexts.item(0)
         
-        # Get the first sketch text.
-        skText = sk.sketchTexts.item(0)
+        # Change the first text on the top label.
+        top_skText_main.text = returnValue
 
-        #Prompts the user for the new Text   
-        (returnValue, cancelled) = ui.inputBox('What text?', 'New text:', )
+        # Get the second sketch text on the top label.
+        top_skText_sub = top_sk.sketchTexts.item(1)
+
+        # Change the second text on the top label.
+        top_skText_sub.text = returnValue
         
-        # Grab the sketch and first text entity 
-        sk = rootComp.sketches.itemByName('ChangeText') 
-        skText = sk.sketchTexts.item(0)
-
-        # Change the text.
-        skText.text = returnValue
-
-        # Write in the path to the folder where you want to save STL‘s
-        folder = 'C:/Users/Desktop/etc...'
-        
-        # Construct the output filename. Name will be the same as you‘ve changed    the text into.
-        filename = folder + skText.text + '.stl'
-
-        # Save the file as STL.
-        exportMgr = adsk.fusion.ExportManager.cast(design.exportManager)
-        stlOptions = exportMgr.createSTLExportOptions(rootComp)
-        stlOptions.meshRefinement = adsk.fusion.MeshRefinementSettings.MeshRefinementMedium
-        stlOptions.filename = filename
-        exportMgr.execute(stlOptions)
 
     except:
         if ui:
