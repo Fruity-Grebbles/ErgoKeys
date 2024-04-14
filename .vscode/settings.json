@@ -5,6 +5,8 @@
             "*.yml",
         ]
     },
+    "python.autoComplete.extraPaths":	["%APPDATA%/Autodesk/Autodesk Fusion 360/API/Python/defs"],
+    "python.analysis.extraPaths":	["%APPDATA%/Autodesk/Autodesk Fusion 360/API/Python/defs"],
     "svg.preview.background": "white",
     "recommendations": [
         "redhat.vscode-yaml",
