@@ -42,7 +42,7 @@ def export_configurations():
             ui.messageBox('Failed:\n{}'.format(traceback.format_exc()))
 
 def export_active_configuration():
-    ui = None 
+    ui = None
     try:
         app = adsk.core.Application.get()
         ui = app.userInterface
