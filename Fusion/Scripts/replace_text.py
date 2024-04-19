@@ -10,25 +10,13 @@ def run(context):
         
         # Get the sketch for the top label.
         top_sk = rootComp.sketches.itemByName("Top_Label")
-        # Get the plane for the top label.
-        top_plane = top_sk.referencePlane
-        # Create a new sketch for our new text.
-        new_top_sketch = rootComp.sketches.add(top_plane)
-        # Copy the existing sketch contents to the new sketch.
-        top_sk.copy(top_sk.sketchCurves, adsk.core.Vector3D.create(), new_top_sketch)
-
-
-
+        # Copy the top label sketch.
+        newSketch = copySketchByName(rootComp, "Top_Label", "New_Top_Label")
         # Add suppress feature columns to the configuration table for the labels. 
 
         # Get the sketch for the front label
         front_sk = rootComp.sketches.itemByName("Front_Label")
-        # Get the plane for the front label.
-        front_plane = front_sk.referencePlane
-        # Create a new sketch for our new text.
-        new_front_sketch = rootComp.sketches.add(front_plane)
-        # Copy the existing sketch contents to the new sketch.
-        front_sk.copy(front_sk.sketchCurves, adsk.core.Vector3D.create(), new_front_sketch)
+
 
         # Set the new text for the top label's main text.
         new_top_sketch.sketchTexts.item(0).text = returnValue
@@ -42,7 +30,7 @@ def run(context):
         if ui:
             ui.messageBox('Failed:\n{}'.format(traceback.format_exc()))
 
-def copySketchByName(baseFeature, sketchName, newSketchName):
+def copySketchByName(baseFeature, sketchName):
     # Get the original sketch
     sketch = baseFeature.sketches.itemByName(sketchName)
     # Get the plane for the original sketch.
@@ -59,7 +47,6 @@ def copySketchByName(baseFeature, sketchName, newSketchName):
     sketchObjects.add(sketch.sketchConstraints)
     # Copy the existing sketch contents to the new sketch.
     sketch.copy(sketchObjects, adsk.core.Vector3D.create(), new_sketch)
-    # 
     return new_sketch
 
 
