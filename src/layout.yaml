@@ -13,7 +13,7 @@ units:
   hinge_space: 3.25
   pokey: plate_hole + hinge_space + hingey
   ppokey: ky + hinge_space + hingey + 4
-  poke_pad: pokey-3
+  poke_pad: pokey-2.5
   poke_cap: 1.25pokey
 
 points:
@@ -39,13 +39,16 @@ points:
             shift: [-.3kx,2]
         middle:
           key.stagger: 5
+          rows.top.padding: poke_pad + 1.5
         index:
           key.stagger: -6
+          rows.top.padding: poke_pad + 1
           rows.num.adjust:
             rotate: -30
             shift: [.2kx,2]
         inner:
           key.stagger: -2
+          rows.top.padding: poke_pad + 1
           rows.num.adjust:
             rotate: -30
             shift: [.2kx,2]
@@ -87,7 +90,7 @@ points:
             adjust.rotate: 20
         extra:
           rows.poke.skip: true
-          key.spread: pokey+3
+          key.spread: pokey+4.25
           rows.thumb:
             tags: poke
             adjust.shift: [0,-.3hingey]
